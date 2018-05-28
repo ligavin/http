@@ -1,19 +1,20 @@
 package httphandler
 
 import (
-	"fmt"
+	. "http/comm"
 )
-import . "http/comm"
 
 
-func HandlerTest1(handler HandlerHead){
-	w := handler.Writer
-	r := handler.Request
-	querys := r.URL.Query()
+func Handler1(handler HandlerHead)(map[string]interface{} ,error){
+	querys := handler.Query
 
-	fmt.Fprintf(w,"<h1>Hello%s!</h1>",r.URL.Path[1:])
-	Debug(handler,"here,querys:%v\n", querys)
+	Debug(handler, "default page:%v\n", querys)
 
 	Debug(handler,"test:%s", GetValue(querys, "test"))
 
+	resMap := make(map[string]interface{})
+	resMap["ret"]=0
+	resMap["msg"]="handler1 ok"
+
+	return resMap,nil
 }

@@ -1,20 +1,20 @@
 package httphandler
 
 import (
-	"fmt"
+	. "http/comm"
 )
-import . "http/comm"
 
 
-func HandlerDefault(handler HandlerHead){
-	w := handler.Writer
-	r := handler.Request
+func HandlerDefault(handler HandlerHead)(map[string]interface{} ,error){
 	querys := handler.Query
-	path:=r.URL.Path[1:]
 
-	fmt.Fprintf(w,"<head><title>404</title></head><h1>Hello,%s!</h1>", path)
 	Debug(handler, "default page:%v\n", querys)
 
 	Debug(handler,"test:%s", GetValue(querys, "test"))
 
+	resMap := make(map[string]interface{})
+	resMap["ret"]=999
+	resMap["msg"]="err interface"
+
+	return resMap,nil
 }

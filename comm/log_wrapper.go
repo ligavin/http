@@ -54,7 +54,7 @@ func OutputLog(logger *log.Logger, calldepth int, format string, v ...interface{
 		fn = callers[len(callers)-1]
 	}
 
-	format = fmt.Sprintf("caller:%s,%s", fn, format)
+	format = fmt.Sprintf("func:%s,%s", fn, format)
 
 	logger.Output(calldepth, fmt.Sprintf(format, v...))
 }

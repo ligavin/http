@@ -9,6 +9,8 @@ import (
 	. "http/comm"
 	"strconv"
 	. "http/handlebase"
+	"fmt"
+	"encoding/json"
 )
 
 var logger *log.Logger
@@ -29,8 +31,6 @@ func httpHandlerInit(){
 //DefaultRequestHandler
 func defaultHandler(w http.ResponseWriter,r *http.Request){
 
-	logger.Println("request over\n")
-
 	seq := GetRandUint32()
 	query := r.URL.Query()
 	handler := HandlerHead{logger, w,r, query, seq}
@@ -46,14 +46,26 @@ func defaultHandler(w http.ResponseWriter,r *http.Request){
 		handlePath = "default"
 	}
 
-
-
-	go funcs.Call(handlePath, handler)
-
 	Debug(handler, "original path:%s,handlePath:%s,visitTimes:%s,req_map:%v",
 		r.URL.Path,handlePath,strconv.Itoa(visitTimes),query)
 
+	callHandler(handlePath, handler)
+
 	visitTimes++
+}
+
+func callHandler(handlePath string, handler HandlerHead){
+	resValue, err := funcs.Call(handlePath, handler)
+
+	resMap := resValue[0].Interface().(map[string]interface{})
+
+	data, _ := json.Marshal(resMap)
+
+	res :=string(data)
+
+	Debug(handler,"resmap:%v,err:%v,res:%s", resMap, err, res)
+	fmt.Fprintf(handler.Writer,"%s", res)
+
 }
 
 
