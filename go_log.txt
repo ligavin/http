@@ -5020,3 +5020,12 @@ request start
 2018/05/28 17:44:39 http_default.go:13: func:HandlerDefault,seq=3032678411,test:
 2018/05/28 17:44:39 http.go:66: func:callHandler,seq=3032678411,resmap:map[ret:999 msg:err interface],err:<nil>,res:{"msg":"err interface","ret":999}
 2018/05/28 17:44:39 http.go:80: func:panicHandler,seq=3032678411,request over
+2018/05/28 17:57:18 http.go:96: func:main,start svr ok
+
+
+
+2018/05/28 17:57:21 http.go:49: func:defaultHandler,seq=2509128891,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/28 17:57:21 handler1.go:13: func:Handler1,seq=2509128891,default page:map[test:[1 22]]
+2018/05/28 17:57:21 handler1.go:15: func:Handler1,seq=2509128891,test:1
+2018/05/28 17:57:21 http.go:66: func:callHandler,seq=2509128891,resmap:map[ret:0 msg:handler1 ok],err:<nil>,res:{"msg":"handler1 ok","ret":0}
+2018/05/28 17:57:21 http.go:80: func:panicHandler,seq=2509128891,request over

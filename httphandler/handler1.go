@@ -8,9 +8,11 @@ import (
 func Handler1(handler HandlerHead)(map[string]interface{} ,error){
 	querys := handler.Query
 
+	r := handler.Request
+
 	Debug(handler, "default page:%v\n", querys)
 
-	Debug(handler,"test:%s", GetValue(querys, "test"))
+	Debug(handler,"test:%s", r.FormValue("test"))
 
 	resMap := make(map[string]interface{})
 	resMap["ret"]=0
