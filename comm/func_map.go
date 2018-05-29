@@ -22,7 +22,6 @@ func (f Funcs) Bind(name string, fn interface{}) (err error) {
 		}
 	}()
 	v := reflect.ValueOf(fn)
-	v.Type().NumIn()
 	f[name] = v
 	return
 }

@@ -114,7 +114,10 @@ func main(){
 
 	DebugBase("start svr ok\n\n\n\n")
 
-	err = http.ListenAndServe(":8080",nil)
+	server := &http.Server{Addr: ":8080", Handler: nil, ErrorLog:logger}
+	err =  server.ListenAndServe()
+
+	//err = http.ListenAndServe(":8080",nil)
 
 	if err != nil {
 		DebugBase("http svr err:%v", err)
