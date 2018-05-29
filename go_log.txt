@@ -5029,3 +5029,971 @@ request start
 2018/05/28 17:57:21 handler1.go:15: func:Handler1,seq=2509128891,test:1
 2018/05/28 17:57:21 http.go:66: func:callHandler,seq=2509128891,resmap:map[ret:0 msg:handler1 ok],err:<nil>,res:{"msg":"handler1 ok","ret":0}
 2018/05/28 17:57:21 http.go:80: func:panicHandler,seq=2509128891,request over
+2018/05/29 13:28:39 http.go:113: func:main,start svr ok
+
+
+
+2018/05/29 13:28:41 http.go:50: func:defaultHandler,debug seq=1502902016,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 13:28:41 handler1.go:13: func:Handler1,debug seq=1502902016,default page:map[test:[1 22]]
+2018/05/29 13:28:41 handler1.go:15: func:Handler1,debug seq=1502902016,test:1
+2018/05/29 13:28:41 http.go:62: func:callHandler,error seq=1502902016,func:handler1 return params count  not 1
+2018/05/29 13:28:41 http.go:97: func:panicHandler,debug seq=1502902016,request over
+2018/05/29 13:28:41 http.go:50: func:defaultHandler,debug seq=367267857,original path:/favicon.ico,handlePath:default,visitTimes:2,req_map:map[]
+2018/05/29 13:28:41 http_default.go:11: func:HandlerDefault,debug seq=367267857,default page:map[]
+2018/05/29 13:28:41 http_default.go:13: func:HandlerDefault,debug seq=367267857,test:
+2018/05/29 13:28:41 http.go:62: func:callHandler,error seq=367267857,func:default return params count  not 1
+2018/05/29 13:28:41 http.go:97: func:panicHandler,debug seq=367267857,request over
+2018/05/29 13:28:42 http.go:50: func:defaultHandler,debug seq=157011135,original path:/handler1,handlePath:handler1,visitTimes:3,req_map:map[test:[1 22]]
+2018/05/29 13:28:42 handler1.go:13: func:Handler1,debug seq=157011135,default page:map[test:[1 22]]
+2018/05/29 13:28:42 handler1.go:15: func:Handler1,debug seq=157011135,test:1
+2018/05/29 13:28:42 http.go:62: func:callHandler,error seq=157011135,func:handler1 return params count  not 1
+2018/05/29 13:28:42 http.go:97: func:panicHandler,debug seq=157011135,request over
+2018/05/29 13:28:42 http.go:50: func:defaultHandler,debug seq=2317877870,original path:/favicon.ico,handlePath:default,visitTimes:4,req_map:map[]
+2018/05/29 13:28:42 http_default.go:11: func:HandlerDefault,debug seq=2317877870,default page:map[]
+2018/05/29 13:28:42 http_default.go:13: func:HandlerDefault,debug seq=2317877870,test:
+2018/05/29 13:28:42 http.go:62: func:callHandler,error seq=2317877870,func:default return params count  not 1
+2018/05/29 13:28:42 http.go:97: func:panicHandler,debug seq=2317877870,request over
+2018/05/29 13:28:42 http.go:50: func:defaultHandler,debug seq=1072978893,original path:/handler1,handlePath:handler1,visitTimes:5,req_map:map[test:[1 22]]
+2018/05/29 13:28:42 handler1.go:13: func:Handler1,debug seq=1072978893,default page:map[test:[1 22]]
+2018/05/29 13:28:42 handler1.go:15: func:Handler1,debug seq=1072978893,test:1
+2018/05/29 13:28:42 http.go:62: func:callHandler,error seq=1072978893,func:handler1 return params count  not 1
+2018/05/29 13:28:42 http.go:97: func:panicHandler,debug seq=1072978893,request over
+2018/05/29 13:28:42 http.go:50: func:defaultHandler,debug seq=920473398,original path:/favicon.ico,handlePath:default,visitTimes:6,req_map:map[]
+2018/05/29 13:28:42 http_default.go:11: func:HandlerDefault,debug seq=920473398,default page:map[]
+2018/05/29 13:28:42 http_default.go:13: func:HandlerDefault,debug seq=920473398,test:
+2018/05/29 13:28:42 http.go:62: func:callHandler,error seq=920473398,func:default return params count  not 1
+2018/05/29 13:28:42 http.go:97: func:panicHandler,debug seq=920473398,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=1697630943,original path:/handler1,handlePath:handler1,visitTimes:7,req_map:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:13: func:Handler1,debug seq=1697630943,default page:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:15: func:Handler1,debug seq=1697630943,test:1
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=1697630943,func:handler1 return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=1697630943,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=1697474447,original path:/favicon.ico,handlePath:default,visitTimes:8,req_map:map[]
+2018/05/29 13:28:43 http_default.go:11: func:HandlerDefault,debug seq=1697474447,default page:map[]
+2018/05/29 13:28:43 http_default.go:13: func:HandlerDefault,debug seq=1697474447,test:
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=1697474447,func:default return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=1697474447,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=252561520,original path:/handler1,handlePath:handler1,visitTimes:9,req_map:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:13: func:Handler1,debug seq=252561520,default page:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:15: func:Handler1,debug seq=252561520,test:1
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=252561520,func:handler1 return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=252561520,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=609724645,original path:/favicon.ico,handlePath:default,visitTimes:10,req_map:map[]
+2018/05/29 13:28:43 http_default.go:11: func:HandlerDefault,debug seq=609724645,default page:map[]
+2018/05/29 13:28:43 http_default.go:13: func:HandlerDefault,debug seq=609724645,test:
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=609724645,func:default return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=609724645,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=3127729129,original path:/handler1,handlePath:handler1,visitTimes:11,req_map:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:13: func:Handler1,debug seq=3127729129,default page:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:15: func:Handler1,debug seq=3127729129,test:1
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=3127729129,func:handler1 return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=3127729129,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=1260065098,original path:/favicon.ico,handlePath:default,visitTimes:12,req_map:map[]
+2018/05/29 13:28:43 http_default.go:11: func:HandlerDefault,debug seq=1260065098,default page:map[]
+2018/05/29 13:28:43 http_default.go:13: func:HandlerDefault,debug seq=1260065098,test:
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=1260065098,func:default return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=1260065098,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=3911202624,original path:/handler1,handlePath:handler1,visitTimes:13,req_map:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:13: func:Handler1,debug seq=3911202624,default page:map[test:[1 22]]
+2018/05/29 13:28:43 handler1.go:15: func:Handler1,debug seq=3911202624,test:1
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=3911202624,func:handler1 return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=3911202624,request over
+2018/05/29 13:28:43 http.go:50: func:defaultHandler,debug seq=180824433,original path:/favicon.ico,handlePath:default,visitTimes:14,req_map:map[]
+2018/05/29 13:28:43 http_default.go:11: func:HandlerDefault,debug seq=180824433,default page:map[]
+2018/05/29 13:28:43 http_default.go:13: func:HandlerDefault,debug seq=180824433,test:
+2018/05/29 13:28:43 http.go:62: func:callHandler,error seq=180824433,func:default return params count  not 1
+2018/05/29 13:28:43 http.go:97: func:panicHandler,debug seq=180824433,request over
+2018/05/29 13:28:44 http.go:50: func:defaultHandler,debug seq=3402240555,original path:/handler1,handlePath:handler1,visitTimes:15,req_map:map[test:[1 22]]
+2018/05/29 13:28:44 handler1.go:13: func:Handler1,debug seq=3402240555,default page:map[test:[1 22]]
+2018/05/29 13:28:44 handler1.go:15: func:Handler1,debug seq=3402240555,test:1
+2018/05/29 13:28:44 http.go:62: func:callHandler,error seq=3402240555,func:handler1 return params count  not 1
+2018/05/29 13:28:44 http.go:97: func:panicHandler,debug seq=3402240555,request over
+2018/05/29 13:28:44 http.go:50: func:defaultHandler,debug seq=1108429510,original path:/favicon.ico,handlePath:default,visitTimes:16,req_map:map[]
+2018/05/29 13:28:44 http_default.go:11: func:HandlerDefault,debug seq=1108429510,default page:map[]
+2018/05/29 13:28:44 http_default.go:13: func:HandlerDefault,debug seq=1108429510,test:
+2018/05/29 13:28:44 http.go:62: func:callHandler,error seq=1108429510,func:default return params count  not 1
+2018/05/29 13:28:44 http.go:97: func:panicHandler,debug seq=1108429510,request over
+2018/05/29 13:28:58 http.go:50: func:defaultHandler,debug seq=391991840,original path:/handler1,handlePath:handler1,visitTimes:17,req_map:map[test:[1 22]]
+2018/05/29 13:28:58 handler1.go:13: func:Handler1,debug seq=391991840,default page:map[test:[1 22]]
+2018/05/29 13:28:58 handler1.go:15: func:Handler1,debug seq=391991840,test:1
+2018/05/29 13:28:58 http.go:62: func:callHandler,error seq=391991840,func:handler1 return params count  not 1
+2018/05/29 13:28:58 http.go:97: func:panicHandler,debug seq=391991840,request over
+2018/05/29 13:35:15 http.go:113: func:main,start svr ok
+
+
+
+2018/05/29 13:35:16 http.go:50: func:defaultHandler,debug seq=3978235436,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 13:35:16 handler1.go:13: func:Handler1,debug seq=3978235436,default page:map[test:[1 22]]
+2018/05/29 13:35:16 handler1.go:15: func:Handler1,debug seq=3978235436,test:1
+2018/05/29 13:35:16 http.go:62: func:callHandler,error seq=3978235436,func:handler1 return params count  not 1
+2018/05/29 13:35:16 http.go:97: func:panicHandler,debug seq=3978235436,request over
+2018/05/29 13:35:17 http.go:50: func:defaultHandler,debug seq=929089753,original path:/handler1,handlePath:handler1,visitTimes:2,req_map:map[test:[1 22]]
+2018/05/29 13:35:17 handler1.go:13: func:Handler1,debug seq=929089753,default page:map[test:[1 22]]
+2018/05/29 13:35:17 handler1.go:15: func:Handler1,debug seq=929089753,test:1
+2018/05/29 13:35:17 http.go:62: func:callHandler,error seq=929089753,func:handler1 return params count  not 1
+2018/05/29 13:35:17 http.go:97: func:panicHandler,debug seq=929089753,request over
+2018/05/29 13:35:18 http.go:50: func:defaultHandler,debug seq=4026520845,original path:/handler1,handlePath:handler1,visitTimes:3,req_map:map[test:[1 22]]
+2018/05/29 13:35:18 handler1.go:13: func:Handler1,debug seq=4026520845,default page:map[test:[1 22]]
+2018/05/29 13:35:18 handler1.go:15: func:Handler1,debug seq=4026520845,test:1
+2018/05/29 13:35:18 http.go:62: func:callHandler,error seq=4026520845,func:handler1 return params count  not 1
+2018/05/29 13:35:18 http.go:97: func:panicHandler,debug seq=4026520845,request over
+2018/05/29 13:35:18 http.go:50: func:defaultHandler,debug seq=1395982385,original path:/handler1,handlePath:handler1,visitTimes:4,req_map:map[test:[1 22]]
+2018/05/29 13:35:18 handler1.go:13: func:Handler1,debug seq=1395982385,default page:map[test:[1 22]]
+2018/05/29 13:35:18 handler1.go:15: func:Handler1,debug seq=1395982385,test:1
+2018/05/29 13:35:18 http.go:62: func:callHandler,error seq=1395982385,func:handler1 return params count  not 1
+2018/05/29 13:35:18 http.go:97: func:panicHandler,debug seq=1395982385,request over
+2018/05/29 13:35:19 http.go:50: func:defaultHandler,debug seq=451296366,original path:/handler1,handlePath:handler1,visitTimes:5,req_map:map[test:[1 22]]
+2018/05/29 13:35:19 handler1.go:13: func:Handler1,debug seq=451296366,default page:map[test:[1 22]]
+2018/05/29 13:35:19 handler1.go:15: func:Handler1,debug seq=451296366,test:1
+2018/05/29 13:35:19 http.go:62: func:callHandler,error seq=451296366,func:handler1 return params count  not 1
+2018/05/29 13:35:19 http.go:97: func:panicHandler,debug seq=451296366,request over
+2018/05/29 13:35:20 http.go:50: func:defaultHandler,debug seq=4204358710,original path:/handler1,handlePath:handler1,visitTimes:6,req_map:map[test:[1 22]]
+2018/05/29 13:35:20 handler1.go:13: func:Handler1,debug seq=4204358710,default page:map[test:[1 22]]
+2018/05/29 13:35:20 handler1.go:15: func:Handler1,debug seq=4204358710,test:1
+2018/05/29 13:35:20 http.go:62: func:callHandler,error seq=4204358710,func:handler1 return params count  not 1
+2018/05/29 13:35:20 http.go:97: func:panicHandler,debug seq=4204358710,request over
+2018/05/29 13:35:20 http.go:50: func:defaultHandler,debug seq=2828365447,original path:/handler1,handlePath:handler1,visitTimes:7,req_map:map[test:[1 22]]
+2018/05/29 13:35:20 handler1.go:13: func:Handler1,debug seq=2828365447,default page:map[test:[1 22]]
+2018/05/29 13:35:20 handler1.go:15: func:Handler1,debug seq=2828365447,test:1
+2018/05/29 13:35:20 http.go:62: func:callHandler,error seq=2828365447,func:handler1 return params count  not 1
+2018/05/29 13:35:20 http.go:97: func:panicHandler,debug seq=2828365447,request over
+2018/05/29 13:36:03 http.go:50: func:defaultHandler,debug seq=580892782,original path:/handler1,handlePath:handler1,visitTimes:8,req_map:map[test:[1 22]]
+2018/05/29 13:36:03 handler1.go:13: func:Handler1,debug seq=580892782,default page:map[test:[1 22]]
+2018/05/29 13:36:03 handler1.go:15: func:Handler1,debug seq=580892782,test:1
+2018/05/29 13:36:03 http.go:62: func:callHandler,error seq=580892782,func:handler1 return params count  not 1
+2018/05/29 13:36:03 http.go:97: func:panicHandler,debug seq=580892782,request over
+2018/05/29 13:36:04 http.go:50: func:defaultHandler,debug seq=3224894540,original path:/handler1,handlePath:handler1,visitTimes:9,req_map:map[test:[1 22]]
+2018/05/29 13:36:04 handler1.go:13: func:Handler1,debug seq=3224894540,default page:map[test:[1 22]]
+2018/05/29 13:36:04 handler1.go:15: func:Handler1,debug seq=3224894540,test:1
+2018/05/29 13:36:04 http.go:62: func:callHandler,error seq=3224894540,func:handler1 return params count  not 1
+2018/05/29 13:36:04 http.go:97: func:panicHandler,debug seq=3224894540,request over
+2018/05/29 13:36:04 http.go:50: func:defaultHandler,debug seq=994602120,original path:/handler1,handlePath:handler1,visitTimes:10,req_map:map[test:[1 22]]
+2018/05/29 13:36:04 handler1.go:13: func:Handler1,debug seq=994602120,default page:map[test:[1 22]]
+2018/05/29 13:36:04 handler1.go:15: func:Handler1,debug seq=994602120,test:1
+2018/05/29 13:36:04 http.go:62: func:callHandler,error seq=994602120,func:handler1 return params count  not 1
+2018/05/29 13:36:04 http.go:97: func:panicHandler,debug seq=994602120,request over
+2018/05/29 13:37:10 http.go:114: func:main,start svr ok
+
+
+
+2018/05/29 13:37:12 http.go:50: func:defaultHandler,debug seq=3881178123,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 13:37:12 handler1.go:13: func:Handler1,debug seq=3881178123,default page:map[test:[1 22]]
+2018/05/29 13:37:12 handler1.go:15: func:Handler1,debug seq=3881178123,test:1
+2018/05/29 13:37:12 http.go:62: func:callHandler,error seq=3881178123,func:handler1 return params count  not 1,len(reflectValues):2,reflectValues:[<map[string]interface {} Value> <error Value>]
+2018/05/29 13:37:12 http.go:98: func:panicHandler,debug seq=3881178123,request over
+2018/05/29 13:38:18 http.go:114: func:main,start svr ok
+
+
+
+2018/05/29 13:38:21 http.go:50: func:defaultHandler,debug seq=2477952649,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 13:38:21 handler1.go:13: func:Handler1,debug seq=2477952649,default page:map[test:[1 22]]
+2018/05/29 13:38:21 handler1.go:15: func:Handler1,debug seq=2477952649,test:1
+2018/05/29 13:38:21 http.go:84: func:callHandler,debug seq=2477952649,resmap:map[ret:0 msg:handler1 ok],err:<nil>,res:{"msg":"handler1 ok","ret":0}
+2018/05/29 13:38:21 http.go:98: func:panicHandler,debug seq=2477952649,request over
+2018/05/29 13:38:22 http.go:50: func:defaultHandler,debug seq=3908189108,original path:/handler1,handlePath:handler1,visitTimes:2,req_map:map[test:[1 22]]
+2018/05/29 13:38:22 handler1.go:13: func:Handler1,debug seq=3908189108,default page:map[test:[1 22]]
+2018/05/29 13:38:22 handler1.go:15: func:Handler1,debug seq=3908189108,test:1
+2018/05/29 13:38:22 http.go:84: func:callHandler,debug seq=3908189108,resmap:map[ret:0 msg:handler1 ok],err:<nil>,res:{"msg":"handler1 ok","ret":0}
+2018/05/29 13:38:22 http.go:98: func:panicHandler,debug seq=3908189108,request over
+2018/05/29 13:38:24 http.go:50: func:defaultHandler,debug seq=3125380185,original path:/handler1,handlePath:handler1,visitTimes:3,req_map:map[test:[1 22]]
+2018/05/29 13:38:24 handler1.go:13: func:Handler1,debug seq=3125380185,default page:map[test:[1 22]]
+2018/05/29 13:38:24 handler1.go:15: func:Handler1,debug seq=3125380185,test:1
+2018/05/29 13:38:24 http.go:84: func:callHandler,debug seq=3125380185,resmap:map[ret:0 msg:handler1 ok],err:<nil>,res:{"msg":"handler1 ok","ret":0}
+2018/05/29 13:38:24 http.go:98: func:panicHandler,debug seq=3125380185,request over
+2018/05/29 13:38:24 http.go:50: func:defaultHandler,debug seq=2457301729,original path:/favicon.ico,handlePath:default,visitTimes:4,req_map:map[]
+2018/05/29 13:38:24 http_default.go:11: func:HandlerDefault,debug seq=2457301729,default page:map[]
+2018/05/29 13:38:24 http_default.go:13: func:HandlerDefault,debug seq=2457301729,test:
+2018/05/29 13:38:24 http.go:84: func:callHandler,debug seq=2457301729,resmap:map[msg:err interface ret:999],err:<nil>,res:{"msg":"err interface","ret":999}
+2018/05/29 13:38:24 http.go:98: func:panicHandler,debug seq=2457301729,request over
+2018/05/29 14:28:23 http.go:50: func:defaultHandler,debug seq=1193840366,original path:/handler1,handlePath:handler1,visitTimes:5,req_map:map[test:[1 22]]
+2018/05/29 14:28:23 handler1.go:13: func:Handler1,debug seq=1193840366,default page:map[test:[1 22]]
+2018/05/29 14:28:23 handler1.go:15: func:Handler1,debug seq=1193840366,test:1
+2018/05/29 14:28:23 http.go:84: func:callHandler,debug seq=1193840366,resmap:map[ret:0 msg:handler1 ok],err:<nil>,res:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:28:23 http.go:98: func:panicHandler,debug seq=1193840366,request over
+2018/05/29 14:28:23 http.go:50: func:defaultHandler,debug seq=3785300316,original path:/favicon.ico,handlePath:default,visitTimes:6,req_map:map[]
+2018/05/29 14:28:23 http_default.go:11: func:HandlerDefault,debug seq=3785300316,default page:map[]
+2018/05/29 14:28:23 http_default.go:13: func:HandlerDefault,debug seq=3785300316,test:
+2018/05/29 14:28:23 http.go:84: func:callHandler,debug seq=3785300316,resmap:map[ret:999 msg:err interface],err:<nil>,res:{"msg":"err interface","ret":999}
+2018/05/29 14:28:23 http.go:98: func:panicHandler,debug seq=3785300316,request over
+2018/05/29 14:32:08 http.go:115: func:main,start svr ok
+
+
+
+2018/05/29 14:32:12 http.go:50: func:defaultHandler,info seq=173751926,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 14:32:12 handler1.go:13: func:Handler1,debug seq=173751926,default page:map[test:[1 22]]
+2018/05/29 14:32:12 handler1.go:15: func:Handler1,debug seq=173751926,test:1
+2018/05/29 14:32:12 http.go:85: func:callHandler,info seq=173751926,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:32:12 http.go:99: func:panicHandler,info seq=173751926,request over
+2018/05/29 14:32:12 http.go:50: func:defaultHandler,info seq=1064876428,original path:/favicon.ico,handlePath:default,visitTimes:2,req_map:map[]
+2018/05/29 14:32:12 http_default.go:11: func:HandlerDefault,debug seq=1064876428,default page:map[]
+2018/05/29 14:32:12 http_default.go:13: func:HandlerDefault,debug seq=1064876428,test:
+2018/05/29 14:32:12 http.go:85: func:callHandler,info seq=1064876428,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:32:12 http.go:99: func:panicHandler,info seq=1064876428,request over
+2018/05/29 14:37:06 http.go:115: start svr ok
+
+
+
+2018/05/29 14:37:09 http.go:50: info func:Info seq=875954857,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 14:37:09 handler1.go:13: debug func:Debug seq=875954857,default page:map[test:[1 22]]
+2018/05/29 14:37:09 handler1.go:15: debug func:Debug seq=875954857,test:1
+2018/05/29 14:37:09 http.go:85: info func:Info seq=875954857,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:37:09 http.go:99: info func:Info seq=875954857,request over
+2018/05/29 14:37:09 http.go:50: info func:Info seq=1959378935,original path:/favicon.ico,handlePath:default,visitTimes:2,req_map:map[]
+2018/05/29 14:37:09 http_default.go:11: debug func:Debug seq=1959378935,default page:map[]
+2018/05/29 14:37:09 http_default.go:13: debug func:Debug seq=1959378935,test:
+2018/05/29 14:37:09 http.go:85: info func:Info seq=1959378935,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:37:09 http.go:99: info func:Info seq=1959378935,request over
+2018/05/29 14:37:36 http.go:115: start svr ok
+
+
+
+2018/05/29 14:37:40 http.go:50: info func:defaultHandler seq=874528403,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 14:37:40 handler1.go:13: debug func:Handler1 seq=874528403,default page:map[test:[1 22]]
+2018/05/29 14:37:40 handler1.go:15: debug func:Handler1 seq=874528403,test:1
+2018/05/29 14:37:40 http.go:85: info func:callHandler seq=874528403,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:37:40 http.go:99: info func:panicHandler seq=874528403,request over
+2018/05/29 14:37:40 http.go:50: info func:defaultHandler seq=1785952674,original path:/favicon.ico,handlePath:default,visitTimes:2,req_map:map[]
+2018/05/29 14:37:40 http_default.go:11: debug func:HandlerDefault seq=1785952674,default page:map[]
+2018/05/29 14:37:40 http_default.go:13: debug func:HandlerDefault seq=1785952674,test:
+2018/05/29 14:37:40 http.go:85: info func:callHandler seq=1785952674,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:37:40 http.go:99: info func:panicHandler seq=1785952674,request over
+2018/05/29 14:37:58 http.go:115: start svr ok
+
+
+
+2018/05/29 14:38:00 http.go:50: Info func:defaultHandler seq=2226070181,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 14:38:00 handler1.go:13: Debug func:Handler1 seq=2226070181,default page:map[test:[1 22]]
+2018/05/29 14:38:00 handler1.go:15: Debug func:Handler1 seq=2226070181,test:1
+2018/05/29 14:38:00 http.go:85: Info func:callHandler seq=2226070181,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:00 http.go:99: Info func:panicHandler seq=2226070181,request over
+2018/05/29 14:38:00 http.go:50: Info func:defaultHandler seq=564025380,original path:/favicon.ico,handlePath:default,visitTimes:2,req_map:map[]
+2018/05/29 14:38:00 http_default.go:11: Debug func:HandlerDefault seq=564025380,default page:map[]
+2018/05/29 14:38:00 http_default.go:13: Debug func:HandlerDefault seq=564025380,test:
+2018/05/29 14:38:00 http.go:85: Info func:callHandler seq=564025380,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:00 http.go:99: Info func:panicHandler seq=564025380,request over
+2018/05/29 14:38:37 http.go:50: Info func:defaultHandler seq=271425310,original path:/handler1,handlePath:handler1,visitTimes:3,req_map:map[test:[1 22]]
+2018/05/29 14:38:37 handler1.go:13: Debug func:Handler1 seq=271425310,default page:map[test:[1 22]]
+2018/05/29 14:38:37 handler1.go:15: Debug func:Handler1 seq=271425310,test:1
+2018/05/29 14:38:37 http.go:85: Info func:callHandler seq=271425310,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:37 http.go:99: Info func:panicHandler seq=271425310,request over
+2018/05/29 14:38:37 http.go:50: Info func:defaultHandler seq=828099570,original path:/favicon.ico,handlePath:default,visitTimes:4,req_map:map[]
+2018/05/29 14:38:37 http_default.go:11: Debug func:HandlerDefault seq=828099570,default page:map[]
+2018/05/29 14:38:37 http_default.go:13: Debug func:HandlerDefault seq=828099570,test:
+2018/05/29 14:38:37 http.go:85: Info func:callHandler seq=828099570,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:37 http.go:99: Info func:panicHandler seq=828099570,request over
+2018/05/29 14:38:37 http.go:50: Info func:defaultHandler seq=4092169922,original path:/handler1,handlePath:handler1,visitTimes:5,req_map:map[test:[1 22]]
+2018/05/29 14:38:37 handler1.go:13: Debug func:Handler1 seq=4092169922,default page:map[test:[1 22]]
+2018/05/29 14:38:37 handler1.go:15: Debug func:Handler1 seq=4092169922,test:1
+2018/05/29 14:38:37 http.go:85: Info func:callHandler seq=4092169922,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:37 http.go:99: Info func:panicHandler seq=4092169922,request over
+2018/05/29 14:38:37 http.go:50: Info func:defaultHandler seq=1264657927,original path:/favicon.ico,handlePath:default,visitTimes:6,req_map:map[]
+2018/05/29 14:38:37 http_default.go:11: Debug func:HandlerDefault seq=1264657927,default page:map[]
+2018/05/29 14:38:37 http_default.go:13: Debug func:HandlerDefault seq=1264657927,test:
+2018/05/29 14:38:37 http.go:85: Info func:callHandler seq=1264657927,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:37 http.go:99: Info func:panicHandler seq=1264657927,request over
+2018/05/29 14:38:38 http.go:50: Info func:defaultHandler seq=4274593280,original path:/handler1,handlePath:handler1,visitTimes:7,req_map:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:13: Debug func:Handler1 seq=4274593280,default page:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:15: Debug func:Handler1 seq=4274593280,test:1
+2018/05/29 14:38:38 http.go:85: Info func:callHandler seq=4274593280,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:38 http.go:99: Info func:panicHandler seq=4274593280,request over
+2018/05/29 14:38:38 http.go:50: Info func:defaultHandler seq=1033563567,original path:/favicon.ico,handlePath:default,visitTimes:8,req_map:map[]
+2018/05/29 14:38:38 http_default.go:11: Debug func:HandlerDefault seq=1033563567,default page:map[]
+2018/05/29 14:38:38 http_default.go:13: Debug func:HandlerDefault seq=1033563567,test:
+2018/05/29 14:38:38 http.go:85: Info func:callHandler seq=1033563567,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:38 http.go:99: Info func:panicHandler seq=1033563567,request over
+2018/05/29 14:38:38 http.go:50: Info func:defaultHandler seq=2914179284,original path:/handler1,handlePath:handler1,visitTimes:9,req_map:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:13: Debug func:Handler1 seq=2914179284,default page:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:15: Debug func:Handler1 seq=2914179284,test:1
+2018/05/29 14:38:38 http.go:85: Info func:callHandler seq=2914179284,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:38 http.go:99: Info func:panicHandler seq=2914179284,request over
+2018/05/29 14:38:38 http.go:50: Info func:defaultHandler seq=3582930673,original path:/favicon.ico,handlePath:default,visitTimes:10,req_map:map[]
+2018/05/29 14:38:38 http_default.go:11: Debug func:HandlerDefault seq=3582930673,default page:map[]
+2018/05/29 14:38:38 http_default.go:13: Debug func:HandlerDefault seq=3582930673,test:
+2018/05/29 14:38:38 http.go:85: Info func:callHandler seq=3582930673,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:38 http.go:99: Info func:panicHandler seq=3582930673,request over
+2018/05/29 14:38:38 http.go:50: Info func:defaultHandler seq=1378736236,original path:/handler1,handlePath:handler1,visitTimes:11,req_map:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:13: Debug func:Handler1 seq=1378736236,default page:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:15: Debug func:Handler1 seq=1378736236,test:1
+2018/05/29 14:38:38 http.go:85: Info func:callHandler seq=1378736236,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:38 http.go:99: Info func:panicHandler seq=1378736236,request over
+2018/05/29 14:38:38 http.go:50: Info func:defaultHandler seq=1738379700,original path:/favicon.ico,handlePath:default,visitTimes:12,req_map:map[]
+2018/05/29 14:38:38 http_default.go:11: Debug func:HandlerDefault seq=1738379700,default page:map[]
+2018/05/29 14:38:38 http_default.go:13: Debug func:HandlerDefault seq=1738379700,test:
+2018/05/29 14:38:38 http.go:85: Info func:callHandler seq=1738379700,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:38 http.go:99: Info func:panicHandler seq=1738379700,request over
+2018/05/29 14:38:38 http.go:50: Info func:defaultHandler seq=3964907739,original path:/handler1,handlePath:handler1,visitTimes:13,req_map:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:13: Debug func:Handler1 seq=3964907739,default page:map[test:[1 22]]
+2018/05/29 14:38:38 handler1.go:15: Debug func:Handler1 seq=3964907739,test:1
+2018/05/29 14:38:38 http.go:85: Info func:callHandler seq=3964907739,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:38 http.go:99: Info func:panicHandler seq=3964907739,request over
+2018/05/29 14:38:39 http.go:50: Info func:defaultHandler seq=673851398,original path:/favicon.ico,handlePath:default,visitTimes:14,req_map:map[]
+2018/05/29 14:38:39 http_default.go:11: Debug func:HandlerDefault seq=673851398,default page:map[]
+2018/05/29 14:38:39 http_default.go:13: Debug func:HandlerDefault seq=673851398,test:
+2018/05/29 14:38:39 http.go:85: Info func:callHandler seq=673851398,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:39 http.go:99: Info func:panicHandler seq=673851398,request over
+2018/05/29 14:38:39 http.go:50: Info func:defaultHandler seq=2356177156,original path:/handler1,handlePath:handler1,visitTimes:15,req_map:map[test:[1 22]]
+2018/05/29 14:38:39 handler1.go:13: Debug func:Handler1 seq=2356177156,default page:map[test:[1 22]]
+2018/05/29 14:38:39 handler1.go:15: Debug func:Handler1 seq=2356177156,test:1
+2018/05/29 14:38:39 http.go:85: Info func:callHandler seq=2356177156,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:39 http.go:99: Info func:panicHandler seq=2356177156,request over
+2018/05/29 14:38:39 http.go:50: Info func:defaultHandler seq=813925124,original path:/favicon.ico,handlePath:default,visitTimes:16,req_map:map[]
+2018/05/29 14:38:39 http_default.go:11: Debug func:HandlerDefault seq=813925124,default page:map[]
+2018/05/29 14:38:39 http_default.go:13: Debug func:HandlerDefault seq=813925124,test:
+2018/05/29 14:38:39 http.go:85: Info func:callHandler seq=813925124,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:39 http.go:99: Info func:panicHandler seq=813925124,request over
+2018/05/29 14:38:39 http.go:50: Info func:defaultHandler seq=4097436367,original path:/handler1,handlePath:handler1,visitTimes:17,req_map:map[test:[1 22]]
+2018/05/29 14:38:39 handler1.go:13: Debug func:Handler1 seq=4097436367,default page:map[test:[1 22]]
+2018/05/29 14:38:39 handler1.go:15: Debug func:Handler1 seq=4097436367,test:1
+2018/05/29 14:38:39 http.go:85: Info func:callHandler seq=4097436367,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:39 http.go:99: Info func:panicHandler seq=4097436367,request over
+2018/05/29 14:38:39 http.go:50: Info func:defaultHandler seq=1304084977,original path:/favicon.ico,handlePath:default,visitTimes:18,req_map:map[]
+2018/05/29 14:38:39 http_default.go:11: Debug func:HandlerDefault seq=1304084977,default page:map[]
+2018/05/29 14:38:39 http_default.go:13: Debug func:HandlerDefault seq=1304084977,test:
+2018/05/29 14:38:39 http.go:85: Info func:callHandler seq=1304084977,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:38:39 http.go:99: Info func:panicHandler seq=1304084977,request over
+2018/05/29 14:38:43 http.go:50: Info func:defaultHandler seq=131597654,original path:/handler1,handlePath:handler1,visitTimes:19,req_map:map[test:[1 22]]
+2018/05/29 14:38:43 handler1.go:13: Debug func:Handler1 seq=131597654,default page:map[test:[1 22]]
+2018/05/29 14:38:43 handler1.go:15: Debug func:Handler1 seq=131597654,test:1
+2018/05/29 14:38:43 http.go:85: Info func:callHandler seq=131597654,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:43 http.go:99: Info func:panicHandler seq=131597654,request over
+2018/05/29 14:38:44 http.go:50: Info func:defaultHandler seq=3643533682,original path:/handler1,handlePath:handler1,visitTimes:20,req_map:map[test:[1 22]]
+2018/05/29 14:38:44 handler1.go:13: Debug func:Handler1 seq=3643533682,default page:map[test:[1 22]]
+2018/05/29 14:38:44 handler1.go:15: Debug func:Handler1 seq=3643533682,test:1
+2018/05/29 14:38:44 http.go:85: Info func:callHandler seq=3643533682,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:44 http.go:99: Info func:panicHandler seq=3643533682,request over
+2018/05/29 14:38:45 http.go:50: Info func:defaultHandler seq=1413231064,original path:/handler1,handlePath:handler1,visitTimes:21,req_map:map[test:[1 22]]
+2018/05/29 14:38:45 handler1.go:13: Debug func:Handler1 seq=1413231064,default page:map[test:[1 22]]
+2018/05/29 14:38:45 handler1.go:15: Debug func:Handler1 seq=1413231064,test:1
+2018/05/29 14:38:45 http.go:85: Info func:callHandler seq=1413231064,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:45 http.go:99: Info func:panicHandler seq=1413231064,request over
+2018/05/29 14:38:46 http.go:50: Info func:defaultHandler seq=1245423803,original path:/handler1,handlePath:handler1,visitTimes:22,req_map:map[test:[1 22]]
+2018/05/29 14:38:46 handler1.go:13: Debug func:Handler1 seq=1245423803,default page:map[test:[1 22]]
+2018/05/29 14:38:46 handler1.go:15: Debug func:Handler1 seq=1245423803,test:1
+2018/05/29 14:38:46 http.go:85: Info func:callHandler seq=1245423803,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:46 http.go:99: Info func:panicHandler seq=1245423803,request over
+2018/05/29 14:38:47 http.go:50: Info func:defaultHandler seq=2331875495,original path:/handler1,handlePath:handler1,visitTimes:23,req_map:map[test:[1 22]]
+2018/05/29 14:38:47 handler1.go:13: Debug func:Handler1 seq=2331875495,default page:map[test:[1 22]]
+2018/05/29 14:38:47 handler1.go:15: Debug func:Handler1 seq=2331875495,test:1
+2018/05/29 14:38:47 http.go:85: Info func:callHandler seq=2331875495,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:38:47 http.go:99: Info func:panicHandler seq=2331875495,request over
+2018/05/29 14:39:03 http.go:50: Info func:defaultHandler seq=4246189232,original path:/handler1,handlePath:handler1,visitTimes:24,req_map:map[test:[1 22]]
+2018/05/29 14:39:03 handler1.go:13: Debug func:Handler1 seq=4246189232,default page:map[test:[1 22]]
+2018/05/29 14:39:03 handler1.go:15: Debug func:Handler1 seq=4246189232,test:1
+2018/05/29 14:39:03 http.go:85: Info func:callHandler seq=4246189232,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:03 http.go:99: Info func:panicHandler seq=4246189232,request over
+2018/05/29 14:39:04 http.go:50: Info func:defaultHandler seq=1626500236,original path:/handler1,handlePath:handler1,visitTimes:25,req_map:map[test:[1 22]]
+2018/05/29 14:39:04 handler1.go:13: Debug func:Handler1 seq=1626500236,default page:map[test:[1 22]]
+2018/05/29 14:39:04 handler1.go:15: Debug func:Handler1 seq=1626500236,test:1
+2018/05/29 14:39:04 http.go:85: Info func:callHandler seq=1626500236,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:04 http.go:99: Info func:panicHandler seq=1626500236,request over
+2018/05/29 14:39:05 http.go:50: Info func:defaultHandler seq=680068791,original path:/handler1,handlePath:handler1,visitTimes:26,req_map:map[test:[1 22]]
+2018/05/29 14:39:05 handler1.go:13: Debug func:Handler1 seq=680068791,default page:map[test:[1 22]]
+2018/05/29 14:39:05 handler1.go:15: Debug func:Handler1 seq=680068791,test:1
+2018/05/29 14:39:05 http.go:85: Info func:callHandler seq=680068791,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:05 http.go:99: Info func:panicHandler seq=680068791,request over
+2018/05/29 14:39:05 http.go:50: Info func:defaultHandler seq=2000931777,original path:/handler1,handlePath:handler1,visitTimes:27,req_map:map[test:[1 22]]
+2018/05/29 14:39:05 handler1.go:13: Debug func:Handler1 seq=2000931777,default page:map[test:[1 22]]
+2018/05/29 14:39:05 handler1.go:15: Debug func:Handler1 seq=2000931777,test:1
+2018/05/29 14:39:05 http.go:85: Info func:callHandler seq=2000931777,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:05 http.go:99: Info func:panicHandler seq=2000931777,request over
+2018/05/29 14:39:06 http.go:50: Info func:defaultHandler seq=1214661563,original path:/handler1,handlePath:handler1,visitTimes:28,req_map:map[test:[1 22]]
+2018/05/29 14:39:06 handler1.go:13: Debug func:Handler1 seq=1214661563,default page:map[test:[1 22]]
+2018/05/29 14:39:06 handler1.go:15: Debug func:Handler1 seq=1214661563,test:1
+2018/05/29 14:39:06 http.go:85: Info func:callHandler seq=1214661563,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:06 http.go:99: Info func:panicHandler seq=1214661563,request over
+2018/05/29 14:39:06 http.go:50: Info func:defaultHandler seq=349140086,original path:/handler1,handlePath:handler1,visitTimes:29,req_map:map[test:[1 22]]
+2018/05/29 14:39:06 handler1.go:13: Debug func:Handler1 seq=349140086,default page:map[test:[1 22]]
+2018/05/29 14:39:06 handler1.go:15: Debug func:Handler1 seq=349140086,test:1
+2018/05/29 14:39:06 http.go:85: Info func:callHandler seq=349140086,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:06 http.go:99: Info func:panicHandler seq=349140086,request over
+2018/05/29 14:39:07 http.go:50: Info func:defaultHandler seq=2035291369,original path:/handler1,handlePath:handler1,visitTimes:30,req_map:map[test:[1 22]]
+2018/05/29 14:39:07 handler1.go:13: Debug func:Handler1 seq=2035291369,default page:map[test:[1 22]]
+2018/05/29 14:39:07 handler1.go:15: Debug func:Handler1 seq=2035291369,test:1
+2018/05/29 14:39:07 http.go:85: Info func:callHandler seq=2035291369,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:07 http.go:99: Info func:panicHandler seq=2035291369,request over
+2018/05/29 14:39:07 http.go:50: Info func:defaultHandler seq=984499558,original path:/handler1,handlePath:handler1,visitTimes:31,req_map:map[test:[1 22]]
+2018/05/29 14:39:07 handler1.go:13: Debug func:Handler1 seq=984499558,default page:map[test:[1 22]]
+2018/05/29 14:39:07 handler1.go:15: Debug func:Handler1 seq=984499558,test:1
+2018/05/29 14:39:07 http.go:85: Info func:callHandler seq=984499558,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:07 http.go:99: Info func:panicHandler seq=984499558,request over
+2018/05/29 14:39:08 http.go:50: Info func:defaultHandler seq=2845028419,original path:/handler1,handlePath:handler1,visitTimes:32,req_map:map[test:[1 22]]
+2018/05/29 14:39:08 handler1.go:13: Debug func:Handler1 seq=2845028419,default page:map[test:[1 22]]
+2018/05/29 14:39:08 handler1.go:15: Debug func:Handler1 seq=2845028419,test:1
+2018/05/29 14:39:08 http.go:85: Info func:callHandler seq=2845028419,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:08 http.go:99: Info func:panicHandler seq=2845028419,request over
+2018/05/29 14:39:09 http.go:50: Info func:defaultHandler seq=2262217660,original path:/handler1,handlePath:handler1,visitTimes:33,req_map:map[test:[1 22]]
+2018/05/29 14:39:09 handler1.go:13: Debug func:Handler1 seq=2262217660,default page:map[test:[1 22]]
+2018/05/29 14:39:09 handler1.go:15: Debug func:Handler1 seq=2262217660,test:1
+2018/05/29 14:39:09 http.go:85: Info func:callHandler seq=2262217660,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:09 http.go:99: Info func:panicHandler seq=2262217660,request over
+2018/05/29 14:39:09 http.go:50: Info func:defaultHandler seq=912046131,original path:/handler1,handlePath:handler1,visitTimes:34,req_map:map[test:[1 22]]
+2018/05/29 14:39:09 handler1.go:13: Debug func:Handler1 seq=912046131,default page:map[test:[1 22]]
+2018/05/29 14:39:09 handler1.go:15: Debug func:Handler1 seq=912046131,test:1
+2018/05/29 14:39:09 http.go:85: Info func:callHandler seq=912046131,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:09 http.go:99: Info func:panicHandler seq=912046131,request over
+2018/05/29 14:39:10 http.go:50: Info func:defaultHandler seq=617076402,original path:/handler1,handlePath:handler1,visitTimes:35,req_map:map[test:[1 22]]
+2018/05/29 14:39:10 handler1.go:13: Debug func:Handler1 seq=617076402,default page:map[test:[1 22]]
+2018/05/29 14:39:10 handler1.go:15: Debug func:Handler1 seq=617076402,test:1
+2018/05/29 14:39:10 http.go:85: Info func:callHandler seq=617076402,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:10 http.go:99: Info func:panicHandler seq=617076402,request over
+2018/05/29 14:39:10 http.go:50: Info func:defaultHandler seq=389350415,original path:/handler1,handlePath:handler1,visitTimes:36,req_map:map[test:[1 22]]
+2018/05/29 14:39:10 handler1.go:13: Debug func:Handler1 seq=389350415,default page:map[test:[1 22]]
+2018/05/29 14:39:10 handler1.go:15: Debug func:Handler1 seq=389350415,test:1
+2018/05/29 14:39:10 http.go:85: Info func:callHandler seq=389350415,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:10 http.go:99: Info func:panicHandler seq=389350415,request over
+2018/05/29 14:39:11 http.go:50: Info func:defaultHandler seq=3095844774,original path:/handler1,handlePath:handler1,visitTimes:37,req_map:map[test:[1 22]]
+2018/05/29 14:39:11 handler1.go:13: Debug func:Handler1 seq=3095844774,default page:map[test:[1 22]]
+2018/05/29 14:39:11 handler1.go:15: Debug func:Handler1 seq=3095844774,test:1
+2018/05/29 14:39:11 http.go:85: Info func:callHandler seq=3095844774,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:11 http.go:99: Info func:panicHandler seq=3095844774,request over
+2018/05/29 14:39:11 http.go:50: Info func:defaultHandler seq=480671694,original path:/handler1,handlePath:handler1,visitTimes:38,req_map:map[test:[1 22]]
+2018/05/29 14:39:11 handler1.go:13: Debug func:Handler1 seq=480671694,default page:map[test:[1 22]]
+2018/05/29 14:39:11 handler1.go:15: Debug func:Handler1 seq=480671694,test:1
+2018/05/29 14:39:11 http.go:85: Info func:callHandler seq=480671694,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:11 http.go:99: Info func:panicHandler seq=480671694,request over
+2018/05/29 14:39:12 http.go:50: Info func:defaultHandler seq=340812115,original path:/handler1,handlePath:handler1,visitTimes:39,req_map:map[test:[1 22]]
+2018/05/29 14:39:12 handler1.go:13: Debug func:Handler1 seq=340812115,default page:map[test:[1 22]]
+2018/05/29 14:39:12 handler1.go:15: Debug func:Handler1 seq=340812115,test:1
+2018/05/29 14:39:12 http.go:85: Info func:callHandler seq=340812115,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:12 http.go:99: Info func:panicHandler seq=340812115,request over
+2018/05/29 14:39:13 http.go:50: Info func:defaultHandler seq=3433302266,original path:/handler1,handlePath:handler1,visitTimes:40,req_map:map[test:[1 22]]
+2018/05/29 14:39:13 handler1.go:13: Debug func:Handler1 seq=3433302266,default page:map[test:[1 22]]
+2018/05/29 14:39:13 handler1.go:15: Debug func:Handler1 seq=3433302266,test:1
+2018/05/29 14:39:13 http.go:85: Info func:callHandler seq=3433302266,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:13 http.go:99: Info func:panicHandler seq=3433302266,request over
+2018/05/29 14:39:14 http.go:50: Info func:defaultHandler seq=1904564938,original path:/handler1,handlePath:handler1,visitTimes:41,req_map:map[test:[1 22]]
+2018/05/29 14:39:14 handler1.go:13: Debug func:Handler1 seq=1904564938,default page:map[test:[1 22]]
+2018/05/29 14:39:14 handler1.go:15: Debug func:Handler1 seq=1904564938,test:1
+2018/05/29 14:39:14 http.go:85: Info func:callHandler seq=1904564938,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:14 http.go:99: Info func:panicHandler seq=1904564938,request over
+2018/05/29 14:39:15 http.go:50: Info func:defaultHandler seq=1918363992,original path:/handler1,handlePath:handler1,visitTimes:42,req_map:map[test:[1 22]]
+2018/05/29 14:39:15 handler1.go:13: Debug func:Handler1 seq=1918363992,default page:map[test:[1 22]]
+2018/05/29 14:39:15 handler1.go:15: Debug func:Handler1 seq=1918363992,test:1
+2018/05/29 14:39:15 http.go:85: Info func:callHandler seq=1918363992,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:15 http.go:99: Info func:panicHandler seq=1918363992,request over
+2018/05/29 14:39:16 http.go:50: Info func:defaultHandler seq=630935738,original path:/handler1,handlePath:handler1,visitTimes:43,req_map:map[test:[1 22]]
+2018/05/29 14:39:16 handler1.go:13: Debug func:Handler1 seq=630935738,default page:map[test:[1 22]]
+2018/05/29 14:39:16 handler1.go:15: Debug func:Handler1 seq=630935738,test:1
+2018/05/29 14:39:16 http.go:85: Info func:callHandler seq=630935738,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:16 http.go:99: Info func:panicHandler seq=630935738,request over
+2018/05/29 14:39:17 http.go:50: Info func:defaultHandler seq=3238626173,original path:/handler1,handlePath:handler1,visitTimes:44,req_map:map[test:[1 22]]
+2018/05/29 14:39:17 handler1.go:13: Debug func:Handler1 seq=3238626173,default page:map[test:[1 22]]
+2018/05/29 14:39:17 handler1.go:15: Debug func:Handler1 seq=3238626173,test:1
+2018/05/29 14:39:17 http.go:85: Info func:callHandler seq=3238626173,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:17 http.go:99: Info func:panicHandler seq=3238626173,request over
+2018/05/29 14:39:18 http.go:50: Info func:defaultHandler seq=2739968738,original path:/handler1,handlePath:handler1,visitTimes:45,req_map:map[test:[1 22]]
+2018/05/29 14:39:18 handler1.go:13: Debug func:Handler1 seq=2739968738,default page:map[test:[1 22]]
+2018/05/29 14:39:18 handler1.go:15: Debug func:Handler1 seq=2739968738,test:1
+2018/05/29 14:39:18 http.go:85: Info func:callHandler seq=2739968738,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:18 http.go:99: Info func:panicHandler seq=2739968738,request over
+2018/05/29 14:39:19 http.go:50: Info func:defaultHandler seq=3689042797,original path:/handler1,handlePath:handler1,visitTimes:46,req_map:map[test:[1 22]]
+2018/05/29 14:39:19 handler1.go:13: Debug func:Handler1 seq=3689042797,default page:map[test:[1 22]]
+2018/05/29 14:39:19 handler1.go:15: Debug func:Handler1 seq=3689042797,test:1
+2018/05/29 14:39:19 http.go:85: Info func:callHandler seq=3689042797,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:39:19 http.go:99: Info func:panicHandler seq=3689042797,request over
+2018/05/29 14:41:46 http.go:50: Info func:defaultHandler seq=1937845500,original path:/handler1,handlePath:handler1,visitTimes:47,req_map:map[test:[1 ]]
+2018/05/29 14:41:46 handler1.go:13: Debug func:Handler1 seq=1937845500,default page:map[test:[1 ]]
+2018/05/29 14:41:46 handler1.go:15: Debug func:Handler1 seq=1937845500,test:1
+2018/05/29 14:41:46 http.go:85: Info func:callHandler seq=1937845500,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:41:46 http.go:99: Info func:panicHandler seq=1937845500,request over
+2018/05/29 14:41:51 http.go:50: Info func:defaultHandler seq=90463708,original path:/handler1,handlePath:handler1,visitTimes:48,req_map:map[test:[1]]
+2018/05/29 14:41:51 handler1.go:13: Debug func:Handler1 seq=90463708,default page:map[test:[1]]
+2018/05/29 14:41:51 handler1.go:15: Debug func:Handler1 seq=90463708,test:1
+2018/05/29 14:41:51 http.go:85: Info func:callHandler seq=90463708,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:41:51 http.go:99: Info func:panicHandler seq=90463708,request over
+2018/05/29 14:42:51 http.go:50: Info func:defaultHandler seq=3247536449,original path:/handler1,handlePath:handler1,visitTimes:49,req_map:map[test:[1]]
+2018/05/29 14:42:51 handler1.go:13: Debug func:Handler1 seq=3247536449,default page:map[test:[1]]
+2018/05/29 14:42:51 handler1.go:15: Debug func:Handler1 seq=3247536449,test:1
+2018/05/29 14:42:51 http.go:85: Info func:callHandler seq=3247536449,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:42:51 http.go:99: Info func:panicHandler seq=3247536449,request over
+2018/05/29 14:42:58 http.go:50: Info func:defaultHandler seq=120921491,original path:/handler1,handlePath:handler1,visitTimes:50,req_map:map[test:[1]]
+2018/05/29 14:42:58 handler1.go:13: Debug func:Handler1 seq=120921491,default page:map[test:[1]]
+2018/05/29 14:42:58 handler1.go:15: Debug func:Handler1 seq=120921491,test:1
+2018/05/29 14:42:58 http.go:85: Info func:callHandler seq=120921491,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:42:58 http.go:99: Info func:panicHandler seq=120921491,request over
+2018/05/29 14:42:59 http.go:50: Info func:defaultHandler seq=3854201999,original path:/handler1,handlePath:handler1,visitTimes:51,req_map:map[test:[1]]
+2018/05/29 14:42:59 handler1.go:13: Debug func:Handler1 seq=3854201999,default page:map[test:[1]]
+2018/05/29 14:42:59 handler1.go:15: Debug func:Handler1 seq=3854201999,test:1
+2018/05/29 14:42:59 http.go:85: Info func:callHandler seq=3854201999,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:42:59 http.go:99: Info func:panicHandler seq=3854201999,request over
+2018/05/29 14:42:59 http.go:50: Info func:defaultHandler seq=1496671250,original path:/handler1,handlePath:handler1,visitTimes:52,req_map:map[test:[1]]
+2018/05/29 14:42:59 handler1.go:13: Debug func:Handler1 seq=1496671250,default page:map[test:[1]]
+2018/05/29 14:42:59 handler1.go:15: Debug func:Handler1 seq=1496671250,test:1
+2018/05/29 14:42:59 http.go:85: Info func:callHandler seq=1496671250,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:42:59 http.go:99: Info func:panicHandler seq=1496671250,request over
+2018/05/29 14:43:00 http.go:50: Info func:defaultHandler seq=975302476,original path:/handler1,handlePath:handler1,visitTimes:53,req_map:map[test:[1]]
+2018/05/29 14:43:00 handler1.go:13: Debug func:Handler1 seq=975302476,default page:map[test:[1]]
+2018/05/29 14:43:00 handler1.go:15: Debug func:Handler1 seq=975302476,test:1
+2018/05/29 14:43:00 http.go:85: Info func:callHandler seq=975302476,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:00 http.go:99: Info func:panicHandler seq=975302476,request over
+2018/05/29 14:43:01 http.go:50: Info func:defaultHandler seq=1642078987,original path:/handler1,handlePath:handler1,visitTimes:54,req_map:map[test:[1]]
+2018/05/29 14:43:01 handler1.go:13: Debug func:Handler1 seq=1642078987,default page:map[test:[1]]
+2018/05/29 14:43:01 handler1.go:15: Debug func:Handler1 seq=1642078987,test:1
+2018/05/29 14:43:01 http.go:85: Info func:callHandler seq=1642078987,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:01 http.go:99: Info func:panicHandler seq=1642078987,request over
+2018/05/29 14:43:02 http.go:50: Info func:defaultHandler seq=713011608,original path:/handler1,handlePath:handler1,visitTimes:55,req_map:map[test:[1]]
+2018/05/29 14:43:02 handler1.go:13: Debug func:Handler1 seq=713011608,default page:map[test:[1]]
+2018/05/29 14:43:02 handler1.go:15: Debug func:Handler1 seq=713011608,test:1
+2018/05/29 14:43:02 http.go:85: Info func:callHandler seq=713011608,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:02 http.go:99: Info func:panicHandler seq=713011608,request over
+2018/05/29 14:43:03 http.go:50: Info func:defaultHandler seq=2943157908,original path:/handler1,handlePath:handler1,visitTimes:56,req_map:map[test:[1]]
+2018/05/29 14:43:03 handler1.go:13: Debug func:Handler1 seq=2943157908,default page:map[test:[1]]
+2018/05/29 14:43:03 handler1.go:15: Debug func:Handler1 seq=2943157908,test:1
+2018/05/29 14:43:03 http.go:85: Info func:callHandler seq=2943157908,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:03 http.go:99: Info func:panicHandler seq=2943157908,request over
+2018/05/29 14:43:04 http.go:50: Info func:defaultHandler seq=2717184551,original path:/handler1,handlePath:handler1,visitTimes:57,req_map:map[test:[1]]
+2018/05/29 14:43:04 handler1.go:13: Debug func:Handler1 seq=2717184551,default page:map[test:[1]]
+2018/05/29 14:43:04 handler1.go:15: Debug func:Handler1 seq=2717184551,test:1
+2018/05/29 14:43:04 http.go:85: Info func:callHandler seq=2717184551,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:04 http.go:99: Info func:panicHandler seq=2717184551,request over
+2018/05/29 14:43:05 http.go:50: Info func:defaultHandler seq=1582996312,original path:/handler1,handlePath:handler1,visitTimes:58,req_map:map[test:[1]]
+2018/05/29 14:43:05 handler1.go:13: Debug func:Handler1 seq=1582996312,default page:map[test:[1]]
+2018/05/29 14:43:05 handler1.go:15: Debug func:Handler1 seq=1582996312,test:1
+2018/05/29 14:43:05 http.go:85: Info func:callHandler seq=1582996312,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:05 http.go:99: Info func:panicHandler seq=1582996312,request over
+2018/05/29 14:43:07 http.go:50: Info func:defaultHandler seq=3133945830,original path:/handler1,handlePath:handler1,visitTimes:59,req_map:map[test:[1 22]]
+2018/05/29 14:43:07 handler1.go:13: Debug func:Handler1 seq=3133945830,default page:map[test:[1 22]]
+2018/05/29 14:43:07 handler1.go:15: Debug func:Handler1 seq=3133945830,test:1
+2018/05/29 14:43:07 http.go:85: Info func:callHandler seq=3133945830,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:07 http.go:99: Info func:panicHandler seq=3133945830,request over
+2018/05/29 14:43:07 http.go:50: Info func:defaultHandler seq=3014806321,original path:/favicon.ico,handlePath:default,visitTimes:60,req_map:map[]
+2018/05/29 14:43:07 http_default.go:11: Debug func:HandlerDefault seq=3014806321,default page:map[]
+2018/05/29 14:43:07 http_default.go:13: Debug func:HandlerDefault seq=3014806321,test:
+2018/05/29 14:43:07 http.go:85: Info func:callHandler seq=3014806321,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:43:07 http.go:99: Info func:panicHandler seq=3014806321,request over
+2018/05/29 14:43:13 http.go:50: Info func:defaultHandler seq=4091371909,original path:/handler1,handlePath:handler1,visitTimes:61,req_map:map[test:[1 22]]
+2018/05/29 14:43:13 handler1.go:13: Debug func:Handler1 seq=4091371909,default page:map[test:[1 22]]
+2018/05/29 14:43:13 handler1.go:15: Debug func:Handler1 seq=4091371909,test:1
+2018/05/29 14:43:13 http.go:85: Info func:callHandler seq=4091371909,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:43:13 http.go:99: Info func:panicHandler seq=4091371909,request over
+2018/05/29 14:43:13 http.go:50: Info func:defaultHandler seq=4273473567,original path:/favicon.ico,handlePath:default,visitTimes:62,req_map:map[]
+2018/05/29 14:43:13 http_default.go:11: Debug func:HandlerDefault seq=4273473567,default page:map[]
+2018/05/29 14:43:13 http_default.go:13: Debug func:HandlerDefault seq=4273473567,test:
+2018/05/29 14:43:13 http.go:85: Info func:callHandler seq=4273473567,rsp:{"msg":"err interface","ret":999}
+2018/05/29 14:43:13 http.go:99: Info func:panicHandler seq=4273473567,request over
+2018/05/29 14:52:04 http.go:115: start svr ok
+
+
+
+2018/05/29 14:59:32 http.go:115: start svr ok
+
+
+
+2018/05/29 14:59:33 http.go:50: Info func:defaultHandler seq=1385400117,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1]]
+2018/05/29 14:59:33 handler1.go:13: Debug func:Handler1 seq=1385400117,default page:map[test:[1]]
+2018/05/29 14:59:33 handler1.go:15: Debug func:Handler1 seq=1385400117,test:1
+2018/05/29 14:59:33 http.go:85: Info func:callHandler seq=1385400117,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:59:33 http.go:99: Info func:panicHandler seq=1385400117,request over
+2018/05/29 14:59:34 http.go:50: Info func:defaultHandler seq=3340411146,original path:/handler1,handlePath:handler1,visitTimes:2,req_map:map[test:[1]]
+2018/05/29 14:59:34 handler1.go:13: Debug func:Handler1 seq=3340411146,default page:map[test:[1]]
+2018/05/29 14:59:34 handler1.go:15: Debug func:Handler1 seq=3340411146,test:1
+2018/05/29 14:59:34 http.go:85: Info func:callHandler seq=3340411146,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:59:34 http.go:99: Info func:panicHandler seq=3340411146,request over
+2018/05/29 14:59:34 http.go:50: Info func:defaultHandler seq=2716862084,original path:/handler1,handlePath:handler1,visitTimes:3,req_map:map[test:[1]]
+2018/05/29 14:59:34 handler1.go:13: Debug func:Handler1 seq=2716862084,default page:map[test:[1]]
+2018/05/29 14:59:34 handler1.go:15: Debug func:Handler1 seq=2716862084,test:1
+2018/05/29 14:59:34 http.go:85: Info func:callHandler seq=2716862084,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:59:34 http.go:99: Info func:panicHandler seq=2716862084,request over
+2018/05/29 14:59:35 http.go:50: Info func:defaultHandler seq=131292336,original path:/handler1,handlePath:handler1,visitTimes:4,req_map:map[test:[1]]
+2018/05/29 14:59:35 handler1.go:13: Debug func:Handler1 seq=131292336,default page:map[test:[1]]
+2018/05/29 14:59:35 handler1.go:15: Debug func:Handler1 seq=131292336,test:1
+2018/05/29 14:59:35 http.go:85: Info func:callHandler seq=131292336,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:59:35 http.go:99: Info func:panicHandler seq=131292336,request over
+2018/05/29 14:59:35 http.go:50: Info func:defaultHandler seq=2938738417,original path:/handler1,handlePath:handler1,visitTimes:5,req_map:map[test:[1]]
+2018/05/29 14:59:35 handler1.go:13: Debug func:Handler1 seq=2938738417,default page:map[test:[1]]
+2018/05/29 14:59:35 handler1.go:15: Debug func:Handler1 seq=2938738417,test:1
+2018/05/29 14:59:35 http.go:85: Info func:callHandler seq=2938738417,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:59:35 http.go:99: Info func:panicHandler seq=2938738417,request over
+2018/05/29 14:59:36 http.go:50: Info func:defaultHandler seq=1394407677,original path:/handler1,handlePath:handler1,visitTimes:6,req_map:map[test:[1]]
+2018/05/29 14:59:36 handler1.go:13: Debug func:Handler1 seq=1394407677,default page:map[test:[1]]
+2018/05/29 14:59:36 handler1.go:15: Debug func:Handler1 seq=1394407677,test:1
+2018/05/29 14:59:36 http.go:85: Info func:callHandler seq=1394407677,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:59:36 http.go:99: Info func:panicHandler seq=1394407677,request over
+2018/05/29 14:59:37 http.go:50: Info func:defaultHandler seq=4024877794,original path:/handler1,handlePath:handler1,visitTimes:7,req_map:map[test:[1]]
+2018/05/29 14:59:37 handler1.go:13: Debug func:Handler1 seq=4024877794,default page:map[test:[1]]
+2018/05/29 14:59:37 handler1.go:15: Debug func:Handler1 seq=4024877794,test:1
+2018/05/29 14:59:37 http.go:85: Info func:callHandler seq=4024877794,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 14:59:37 http.go:99: Info func:panicHandler seq=4024877794,request over
+2018/05/29 16:42:39 http.go:115: start svr ok
+
+
+
+2018/05/29 16:42:39 http.go:123: http svr err:listen tcp :8080: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2018/05/29 16:42:41 http.go:50: Info func:defaultHandler seq=2839376955,original path:/handler1,handlePath:handler1,visitTimes:8,req_map:map[test:[1]]
+2018/05/29 16:42:41 handler1.go:13: Debug func:Handler1 seq=2839376955,default page:map[test:[1]]
+2018/05/29 16:42:41 handler1.go:15: Debug func:Handler1 seq=2839376955,test:1
+2018/05/29 16:42:41 http.go:85: Info func:callHandler seq=2839376955,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:42:41 http.go:99: Info func:panicHandler seq=2839376955,request over
+2018/05/29 16:42:55 http.go:50: Info func:defaultHandler seq=430793500,original path:/handler1,handlePath:handler1,visitTimes:9,req_map:map[test:[1]]
+2018/05/29 16:42:55 handler1.go:13: Debug func:Handler1 seq=430793500,default page:map[test:[1]]
+2018/05/29 16:42:55 handler1.go:15: Debug func:Handler1 seq=430793500,test:1
+2018/05/29 16:42:55 http.go:85: Info func:callHandler seq=430793500,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:42:55 http.go:99: Info func:panicHandler seq=430793500,request over
+2018/05/29 16:43:00 http.go:50: Info func:defaultHandler seq=2724499183,original path:/handler1,handlePath:handler1,visitTimes:10,req_map:map[test:[1]]
+2018/05/29 16:43:00 handler1.go:13: Debug func:Handler1 seq=2724499183,default page:map[test:[1]]
+2018/05/29 16:43:00 handler1.go:15: Debug func:Handler1 seq=2724499183,test:1
+2018/05/29 16:43:00 http.go:85: Info func:callHandler seq=2724499183,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:00 http.go:99: Info func:panicHandler seq=2724499183,request over
+2018/05/29 16:43:11 http.go:115: start svr ok
+
+
+
+2018/05/29 16:43:13 http.go:50: Info func:defaultHandler seq=3847634863,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1]]
+2018/05/29 16:43:13 handler1.go:13: Debug func:Handler1 seq=3847634863,default page:map[test:[1]]
+2018/05/29 16:43:13 handler1.go:15: Debug func:Handler1 seq=3847634863,test:1
+2018/05/29 16:43:13 http.go:85: Info func:callHandler seq=3847634863,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:13 http.go:99: Info func:panicHandler seq=3847634863,request over
+2018/05/29 16:43:21 http.go:50: Info func:defaultHandler seq=3285357315,original path:/handler1,handlePath:handler1,visitTimes:2,req_map:map[test:[1]]
+2018/05/29 16:43:21 handler1.go:13: Debug func:Handler1 seq=3285357315,default page:map[test:[1]]
+2018/05/29 16:43:21 handler1.go:15: Debug func:Handler1 seq=3285357315,test:1
+2018/05/29 16:43:21 http.go:85: Info func:callHandler seq=3285357315,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:21 http.go:99: Info func:panicHandler seq=3285357315,request over
+2018/05/29 16:43:22 http.go:50: Info func:defaultHandler seq=2777880066,original path:/handler1,handlePath:handler1,visitTimes:3,req_map:map[test:[1]]
+2018/05/29 16:43:22 handler1.go:13: Debug func:Handler1 seq=2777880066,default page:map[test:[1]]
+2018/05/29 16:43:22 handler1.go:15: Debug func:Handler1 seq=2777880066,test:1
+2018/05/29 16:43:22 http.go:85: Info func:callHandler seq=2777880066,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:22 http.go:99: Info func:panicHandler seq=2777880066,request over
+2018/05/29 16:43:23 http.go:50: Info func:defaultHandler seq=543175102,original path:/handler1,handlePath:handler1,visitTimes:4,req_map:map[test:[1]]
+2018/05/29 16:43:23 handler1.go:13: Debug func:Handler1 seq=543175102,default page:map[test:[1]]
+2018/05/29 16:43:23 handler1.go:15: Debug func:Handler1 seq=543175102,test:1
+2018/05/29 16:43:23 http.go:85: Info func:callHandler seq=543175102,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:23 http.go:99: Info func:panicHandler seq=543175102,request over
+2018/05/29 16:43:23 http.go:50: Info func:defaultHandler seq=258102733,original path:/handler1,handlePath:handler1,visitTimes:5,req_map:map[test:[1]]
+2018/05/29 16:43:23 handler1.go:13: Debug func:Handler1 seq=258102733,default page:map[test:[1]]
+2018/05/29 16:43:23 handler1.go:15: Debug func:Handler1 seq=258102733,test:1
+2018/05/29 16:43:23 http.go:85: Info func:callHandler seq=258102733,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:23 http.go:99: Info func:panicHandler seq=258102733,request over
+2018/05/29 16:43:24 http.go:50: Info func:defaultHandler seq=3516035061,original path:/handler1,handlePath:handler1,visitTimes:6,req_map:map[test:[1]]
+2018/05/29 16:43:24 handler1.go:13: Debug func:Handler1 seq=3516035061,default page:map[test:[1]]
+2018/05/29 16:43:24 handler1.go:15: Debug func:Handler1 seq=3516035061,test:1
+2018/05/29 16:43:24 http.go:85: Info func:callHandler seq=3516035061,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:24 http.go:99: Info func:panicHandler seq=3516035061,request over
+2018/05/29 16:43:25 http.go:50: Info func:defaultHandler seq=1288853897,original path:/handler1,handlePath:handler1,visitTimes:7,req_map:map[test:[1]]
+2018/05/29 16:43:25 handler1.go:13: Debug func:Handler1 seq=1288853897,default page:map[test:[1]]
+2018/05/29 16:43:25 handler1.go:15: Debug func:Handler1 seq=1288853897,test:1
+2018/05/29 16:43:25 http.go:85: Info func:callHandler seq=1288853897,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:25 http.go:99: Info func:panicHandler seq=1288853897,request over
+2018/05/29 16:43:25 http.go:50: Info func:defaultHandler seq=203660690,original path:/handler1,handlePath:handler1,visitTimes:8,req_map:map[test:[1]]
+2018/05/29 16:43:25 handler1.go:13: Debug func:Handler1 seq=203660690,default page:map[test:[1]]
+2018/05/29 16:43:25 handler1.go:15: Debug func:Handler1 seq=203660690,test:1
+2018/05/29 16:43:25 http.go:85: Info func:callHandler seq=203660690,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:25 http.go:99: Info func:panicHandler seq=203660690,request over
+2018/05/29 16:43:26 http.go:50: Info func:defaultHandler seq=1892227501,original path:/handler1,handlePath:handler1,visitTimes:9,req_map:map[test:[1]]
+2018/05/29 16:43:26 handler1.go:13: Debug func:Handler1 seq=1892227501,default page:map[test:[1]]
+2018/05/29 16:43:26 handler1.go:15: Debug func:Handler1 seq=1892227501,test:1
+2018/05/29 16:43:26 http.go:85: Info func:callHandler seq=1892227501,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:43:26 http.go:99: Info func:panicHandler seq=1892227501,request over
+2018/05/29 16:44:51 http.go:50: Info func:defaultHandler seq=467689443,original path:/handler1,handlePath:handler1,visitTimes:10,req_map:map[test:[1 22]]
+2018/05/29 16:44:51 handler1.go:13: Debug func:Handler1 seq=467689443,default page:map[test:[1 22]]
+2018/05/29 16:44:51 handler1.go:15: Debug func:Handler1 seq=467689443,test:1
+2018/05/29 16:44:51 http.go:85: Info func:callHandler seq=467689443,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:44:51 http.go:99: Info func:panicHandler seq=467689443,request over
+2018/05/29 16:44:51 http.go:50: Info func:defaultHandler seq=798236755,original path:/favicon.ico,handlePath:default,visitTimes:11,req_map:map[]
+2018/05/29 16:44:51 http_default.go:11: Debug func:HandlerDefault seq=798236755,default page:map[]
+2018/05/29 16:44:51 http_default.go:13: Debug func:HandlerDefault seq=798236755,test:
+2018/05/29 16:44:51 http.go:85: Info func:callHandler seq=798236755,rsp:{"msg":"err interface","ret":999}
+2018/05/29 16:44:51 http.go:99: Info func:panicHandler seq=798236755,request over
+2018/05/29 16:44:57 http.go:50: Info func:defaultHandler seq=3350322741,original path:/handler1,handlePath:handler1,visitTimes:12,req_map:map[test:[1 22]]
+2018/05/29 16:44:57 handler1.go:13: Debug func:Handler1 seq=3350322741,default page:map[test:[1 22]]
+2018/05/29 16:44:57 handler1.go:15: Debug func:Handler1 seq=3350322741,test:1
+2018/05/29 16:44:57 http.go:85: Info func:callHandler seq=3350322741,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:44:57 http.go:99: Info func:panicHandler seq=3350322741,request over
+2018/05/29 16:44:57 http.go:50: Info func:defaultHandler seq=1539102501,original path:/favicon.ico,handlePath:default,visitTimes:13,req_map:map[]
+2018/05/29 16:44:57 http_default.go:11: Debug func:HandlerDefault seq=1539102501,default page:map[]
+2018/05/29 16:44:57 http_default.go:13: Debug func:HandlerDefault seq=1539102501,test:
+2018/05/29 16:44:57 http.go:85: Info func:callHandler seq=1539102501,rsp:{"msg":"err interface","ret":999}
+2018/05/29 16:44:57 http.go:99: Info func:panicHandler seq=1539102501,request over
+2018/05/29 16:48:26 http.go:50: Info func:defaultHandler seq=646725075,original path:/handler1,handlePath:handler1,visitTimes:14,req_map:map[test:[1 22]]
+2018/05/29 16:48:26 handler1.go:13: Debug func:Handler1 seq=646725075,default page:map[test:[1 22]]
+2018/05/29 16:48:26 handler1.go:15: Debug func:Handler1 seq=646725075,test:1
+2018/05/29 16:48:26 http.go:85: Info func:callHandler seq=646725075,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:48:26 http.go:99: Info func:panicHandler seq=646725075,request over
+2018/05/29 16:48:27 http.go:50: Info func:defaultHandler seq=1860118520,original path:/favicon.ico,handlePath:default,visitTimes:15,req_map:map[]
+2018/05/29 16:48:27 http_default.go:11: Debug func:HandlerDefault seq=1860118520,default page:map[]
+2018/05/29 16:48:27 http_default.go:13: Debug func:HandlerDefault seq=1860118520,test:
+2018/05/29 16:48:27 http.go:85: Info func:callHandler seq=1860118520,rsp:{"msg":"err interface","ret":999}
+2018/05/29 16:48:27 http.go:99: Info func:panicHandler seq=1860118520,request over
+2018/05/29 16:53:49 http.go:116: start svr ok
+
+
+
+2018/05/29 16:53:51 http.go:50: Info func:defaultHandler seq=1536779259,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1 22]]
+2018/05/29 16:53:51 handler1.go:13: Debug func:Handler1 seq=1536779259,default page:map[test:[1 22]]
+2018/05/29 16:53:51 handler1.go:15: Debug func:Handler1 seq=1536779259,test:1
+2018/05/29 16:53:51 http.go:85: Info func:callHandler seq=1536779259,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:53:51 http.go:99: Info func:panicHandler seq=1536779259,request over
+2018/05/29 16:53:51 http.go:50: Info func:defaultHandler seq=3780147364,original path:/favicon.ico,handlePath:default,visitTimes:2,req_map:map[]
+2018/05/29 16:53:51 http_default.go:11: Debug func:HandlerDefault seq=3780147364,default page:map[]
+2018/05/29 16:53:51 http_default.go:13: Debug func:HandlerDefault seq=3780147364,test:
+2018/05/29 16:53:51 http.go:85: Info func:callHandler seq=3780147364,rsp:{"msg":"err interface","ret":999}
+2018/05/29 16:53:51 http.go:99: Info func:panicHandler seq=3780147364,request over
+2018/05/29 16:53:51 http.go:50: Info func:defaultHandler seq=4105314816,original path:/handler1,handlePath:handler1,visitTimes:3,req_map:map[test:[1 22]]
+2018/05/29 16:53:51 handler1.go:13: Debug func:Handler1 seq=4105314816,default page:map[test:[1 22]]
+2018/05/29 16:53:51 handler1.go:15: Debug func:Handler1 seq=4105314816,test:1
+2018/05/29 16:53:51 http.go:85: Info func:callHandler seq=4105314816,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 16:53:51 http.go:99: Info func:panicHandler seq=4105314816,request over
+2018/05/29 16:53:51 http.go:50: Info func:defaultHandler seq=486319980,original path:/favicon.ico,handlePath:default,visitTimes:4,req_map:map[]
+2018/05/29 16:53:51 http_default.go:11: Debug func:HandlerDefault seq=486319980,default page:map[]
+2018/05/29 16:53:51 http_default.go:13: Debug func:HandlerDefault seq=486319980,test:
+2018/05/29 16:53:51 http.go:85: Info func:callHandler seq=486319980,rsp:{"msg":"err interface","ret":999}
+2018/05/29 16:53:51 http.go:99: Info func:panicHandler seq=486319980,request over
+2018/05/29 17:01:29 http.go:116: start svr ok
+
+
+
+2018/05/29 17:01:33 http.go:50: Info func:defaultHandler seq=970126078,original path:/handler1,handlePath:handler1,visitTimes:1,req_map:map[test:[1]]
+2018/05/29 17:01:33 handler1.go:13: Debug func:Handler1 seq=970126078,default page:map[test:[1]]
+2018/05/29 17:01:33 handler1.go:15: Debug func:Handler1 seq=970126078,test:1
+2018/05/29 17:01:33 http.go:85: Info func:callHandler seq=970126078,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:01:33 http.go:99: Info func:panicHandler seq=970126078,request over
+2018/05/29 17:07:08 http.go:117: start svr ok
+
+
+
+2018/05/29 17:07:09 http.go:50: Info func:defaultHandler seq=3653815007,original path:/handler1,handlePath:handler1,visitTimes:1,method:POST,req_map:map[test:[1]],post:map[]
+2018/05/29 17:07:09 handler1.go:13: Debug func:Handler1 seq=3653815007,default page:map[test:[1]]
+2018/05/29 17:07:09 handler1.go:15: Debug func:Handler1 seq=3653815007,test:1
+2018/05/29 17:07:09 http.go:86: Info func:callHandler seq=3653815007,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:07:09 http.go:100: Info func:panicHandler seq=3653815007,request over
+2018/05/29 17:07:58 http.go:117: start svr ok
+
+
+
+2018/05/29 17:07:59 http.go:50: Info func:defaultHandler seq=352264312,original path:/handler1,handlePath:handler1,visitTimes:1,method:POST,req_map:map[test:[1]],post:&{0xc04210a000 0xc0420ec180 false false}
+2018/05/29 17:07:59 handler1.go:13: Debug func:Handler1 seq=352264312,default page:map[test:[1]]
+2018/05/29 17:07:59 handler1.go:15: Debug func:Handler1 seq=352264312,test:1
+2018/05/29 17:07:59 http.go:86: Info func:callHandler seq=352264312,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:07:59 http.go:100: Info func:panicHandler seq=352264312,request over
+2018/05/29 17:09:58 http.go:119: start svr ok
+
+
+
+2018/05/29 17:09:58 http.go:50: Info func:defaultHandler seq=4140109311,original path:/handler1,handlePath:handler1,visitTimes:1,method:POST,req_map:map[test:[1]]
+2018/05/29 17:09:58 handler1.go:13: Debug func:Handler1 seq=4140109311,default page:map[test:[1]]
+2018/05/29 17:09:58 handler1.go:15: Debug func:Handler1 seq=4140109311,test:1
+2018/05/29 17:09:58 http.go:88: Info func:callHandler seq=4140109311,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:09:58 http.go:102: Info func:panicHandler seq=4140109311,request over
+2018/05/29 17:13:37 http.go:122: start svr ok
+
+
+
+2018/05/29 17:13:43 http.go:53: Info func:defaultHandler seq=1424802601,original path:/handler1,handlePath:handler1,visitTimes:1,method:POST,req_map:map[test:[1]],post:-
+2018/05/29 17:13:43 handler1.go:13: Debug func:Handler1 seq=1424802601,default page:map[test:[1]]
+2018/05/29 17:13:43 handler1.go:15: Debug func:Handler1 seq=1424802601,test:1
+2018/05/29 17:13:43 http.go:91: Info func:callHandler seq=1424802601,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:13:43 http.go:105: Info func:panicHandler seq=1424802601,request over
+2018/05/29 17:15:05 http.go:119: start svr ok
+
+
+
+2018/05/29 17:15:05 http.go:50: Info func:defaultHandler seq=2873929333,original path:/handler1,handlePath:handler1,visitTimes:1,method:POST,req_map:map[test:[1]]
+2018/05/29 17:15:05 handler1.go:13: Debug func:Handler1 seq=2873929333,default page:map[test:[1]]
+2018/05/29 17:15:05 handler1.go:15: Debug func:Handler1 seq=2873929333,test:1
+2018/05/29 17:15:05 http.go:88: Info func:callHandler seq=2873929333,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:15:05 http.go:102: Info func:panicHandler seq=2873929333,request over
+2018/05/29 17:15:31 http.go:50: Info func:defaultHandler seq=1854044756,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[test:[1]]
+2018/05/29 17:15:31 upload.go:12: Debug func:Upload seq=1854044756,test:1,k%!(EXTRA string=v)
+2018/05/29 17:15:31 http.go:88: Info func:callHandler seq=1854044756,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:15:31 http.go:102: Info func:panicHandler seq=1854044756,request over
+2018/05/29 17:15:53 http.go:119: start svr ok
+
+
+
+2018/05/29 17:15:53 http.go:50: Info func:defaultHandler seq=6638654,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:[1]]
+2018/05/29 17:15:53 upload.go:12: Debug func:Upload seq=6638654,test:1,k:v
+2018/05/29 17:15:53 http.go:88: Info func:callHandler seq=6638654,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:15:53 http.go:102: Info func:panicHandler seq=6638654,request over
+2018/05/29 17:17:06 http.go:119: start svr ok
+
+
+
+2018/05/29 17:17:07 http.go:50: Info func:defaultHandler seq=1024769859,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:[1]]
+2018/05/29 17:17:07 upload.go:12: Debug func:Upload seq=1024769859,test:1,k:v，post:map[k:[v]]
+2018/05/29 17:17:07 http.go:88: Info func:callHandler seq=1024769859,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:17:07 http.go:102: Info func:panicHandler seq=1024769859,request over
+2018/05/29 17:17:27 http.go:119: start svr ok
+
+
+
+2018/05/29 17:17:29 http.go:50: Info func:defaultHandler seq=2687638601,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:[1]]
+2018/05/29 17:17:29 upload.go:12: Debug func:Upload seq=2687638601,test:1,k:v,post:map[k:[v]]
+2018/05/29 17:17:29 http.go:88: Info func:callHandler seq=2687638601,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:17:29 http.go:102: Info func:panicHandler seq=2687638601,request over
+2018/05/29 17:40:05 http.go:140: start svr ok
+
+
+
+2018/05/29 17:40:30 http.go:51: Info func:defaultHandler seq=3844778196,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:40:30 upload.go:12: Debug func:Upload seq=3844778196,test:,k:
+2018/05/29 17:40:30 http.go:109: Info func:callHandler seq=3844778196,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:40:30 http.go:123: Info func:panicHandler seq=3844778196,request over
+2018/05/29 17:40:36 http.go:51: Info func:defaultHandler seq=245204913,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[]
+2018/05/29 17:40:36 upload.go:12: Debug func:Upload seq=245204913,test:,k:
+2018/05/29 17:40:36 http.go:109: Info func:callHandler seq=245204913,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:40:36 http.go:123: Info func:panicHandler seq=245204913,request over
+2018/05/29 17:40:38 http.go:51: Info func:defaultHandler seq=1627408247,original path:/upload,handlePath:upload,visitTimes:3,method:POST,req_map:map[]
+2018/05/29 17:40:38 upload.go:12: Debug func:Upload seq=1627408247,test:,k:
+2018/05/29 17:40:38 http.go:109: Info func:callHandler seq=1627408247,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:40:38 http.go:123: Info func:panicHandler seq=1627408247,request over
+2018/05/29 17:41:37 http.go:142: start svr ok
+
+
+
+2018/05/29 17:41:40 http.go:66: postmap:map[],getmap:map[]
+2018/05/29 17:41:40 http.go:51: Info func:defaultHandler seq=2341398347,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:41:40 upload.go:12: Debug func:Upload seq=2341398347,test:,k:
+2018/05/29 17:41:40 http.go:111: Info func:callHandler seq=2341398347,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:41:40 http.go:125: Info func:panicHandler seq=2341398347,request over
+2018/05/29 17:44:07 http.go:142: start svr ok
+
+
+
+2018/05/29 17:44:08 http.go:66: postmap:map[],getmap:map[],k:[]
+2018/05/29 17:44:08 http.go:51: Info func:defaultHandler seq=1125273073,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:44:08 upload.go:12: Debug func:Upload seq=1125273073,test:,k:
+2018/05/29 17:44:08 http.go:111: Info func:callHandler seq=1125273073,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:44:08 http.go:125: Info func:panicHandler seq=1125273073,request over
+2018/05/29 17:44:31 http.go:142: start svr ok
+
+
+
+2018/05/29 17:44:34 http.go:66: postmap:map[],getmap:map[],k:v
+2018/05/29 17:44:34 http.go:51: Info func:defaultHandler seq=3913766238,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:44:34 upload.go:12: Debug func:Upload seq=3913766238,test:,k:
+2018/05/29 17:44:34 http.go:111: Info func:callHandler seq=3913766238,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:44:34 http.go:125: Info func:panicHandler seq=3913766238,request over
+2018/05/29 17:44:56 http.go:143: start svr ok
+
+
+
+2018/05/29 17:44:57 http.go:67: postmap:map[],getmap:map[],k:v
+2018/05/29 17:44:57 http.go:51: Info func:defaultHandler seq=2944365876,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:44:57 upload.go:12: Debug func:Upload seq=2944365876,test:,k:
+2018/05/29 17:44:57 http.go:112: Info func:callHandler seq=2944365876,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:44:57 http.go:126: Info func:panicHandler seq=2944365876,request over
+2018/05/29 17:46:06 http.go:143: start svr ok
+
+
+
+2018/05/29 17:46:07 http.go:67: postmap:map[k:[v]],getmap:map[],k:v
+2018/05/29 17:46:07 http.go:51: Info func:defaultHandler seq=3984818462,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:46:07 upload.go:12: Debug func:Upload seq=3984818462,test:,k:
+2018/05/29 17:46:07 http.go:112: Info func:callHandler seq=3984818462,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:46:07 http.go:126: Info func:panicHandler seq=3984818462,request over
+2018/05/29 17:47:03 http.go:142: start svr ok
+
+
+
+2018/05/29 17:47:05 http.go:66: postmap:map[k:[v]],getmap:map[test:[1] k:[v]],k:v
+2018/05/29 17:47:05 http.go:51: Info func:defaultHandler seq=4292076173,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:47:05 upload.go:12: Debug func:Upload seq=4292076173,test:,k:
+2018/05/29 17:47:05 http.go:111: Info func:callHandler seq=4292076173,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:47:05 http.go:125: Info func:panicHandler seq=4292076173,request over
+2018/05/29 17:48:29 http.go:142: start svr ok
+
+
+
+2018/05/29 17:48:30 http.go:66: postmap:map[k:[v]],getmap:map[],k:v
+2018/05/29 17:48:30 http.go:51: Info func:defaultHandler seq=3008501609,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:48:30 upload.go:12: Debug func:Upload seq=3008501609,test:,k:
+2018/05/29 17:48:30 http.go:111: Info func:callHandler seq=3008501609,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:48:30 http.go:125: Info func:panicHandler seq=3008501609,request over
+2018/05/29 17:50:56 http.go:141: start svr ok
+
+
+
+2018/05/29 17:50:56 http.go:65: postmap:map[k:[v]],getmap:map[],k:v
+2018/05/29 17:50:56 http.go:50: Info func:defaultHandler seq=521318882,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/29 17:50:56 upload.go:12: Debug func:Upload seq=521318882,test:1,k:v
+2018/05/29 17:50:56 http.go:110: Info func:callHandler seq=521318882,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:50:56 http.go:124: Info func:panicHandler seq=521318882,request over
+2018/05/29 17:55:10 http.go:144: start svr ok
+
+
+
+2018/05/29 17:55:13 http.go:68: postmap:map[],getmap:map[test:[1]],k:
+2018/05/29 17:55:13 http.go:50: Info func:defaultHandler seq=910367683,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:1]
+2018/05/29 17:55:13 upload.go:12: Debug func:Upload seq=910367683,test:1,k:
+2018/05/29 17:55:13 http.go:113: Info func:callHandler seq=910367683,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:55:13 http.go:127: Info func:panicHandler seq=910367683,request over
+2018/05/29 17:58:17 http.go:144: start svr ok
+
+
+
+2018/05/29 17:58:19 http.go:68: postmap:map[],getmap:map[],k:v
+2018/05/29 17:58:19 http.go:50: Info func:defaultHandler seq=3365761793,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/29 17:58:19 upload.go:12: Debug func:Upload seq=3365761793,test:1,k:v
+2018/05/29 17:58:19 http.go:113: Info func:callHandler seq=3365761793,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:58:19 http.go:127: Info func:panicHandler seq=3365761793,request over
+2018/05/29 17:58:43 http.go:144: start svr ok
+
+
+
+2018/05/29 17:58:45 http.go:50: Info func:defaultHandler seq=1353878918,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[]
+2018/05/29 17:58:45 upload.go:12: Debug func:Upload seq=1353878918,test:,k:
+2018/05/29 17:58:45 http.go:113: Info func:callHandler seq=1353878918,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:58:45 http.go:127: Info func:panicHandler seq=1353878918,request over
+2018/05/29 17:59:16 http.go:144: start svr ok
+
+
+
+2018/05/29 17:59:16 http.go:50: Info func:defaultHandler seq=4074839869,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:1]
+2018/05/29 17:59:16 upload.go:12: Debug func:Upload seq=4074839869,test:1,k:
+2018/05/29 17:59:16 http.go:113: Info func:callHandler seq=4074839869,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:59:16 http.go:127: Info func:panicHandler seq=4074839869,request over
+2018/05/29 17:59:43 http.go:50: Info func:defaultHandler seq=943371206,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[]
+2018/05/29 17:59:43 upload.go:12: Debug func:Upload seq=943371206,test:,k:
+2018/05/29 17:59:43 http.go:113: Info func:callHandler seq=943371206,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:59:43 http.go:127: Info func:panicHandler seq=943371206,request over
+2018/05/29 17:59:52 http.go:50: Info func:defaultHandler seq=680810535,original path:/upload,handlePath:upload,visitTimes:3,method:POST,req_map:map[]
+2018/05/29 17:59:52 upload.go:12: Debug func:Upload seq=680810535,test:,k:
+2018/05/29 17:59:52 http.go:113: Info func:callHandler seq=680810535,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 17:59:52 http.go:127: Info func:panicHandler seq=680810535,request over
+2018/05/29 18:00:04 http.go:50: Info func:defaultHandler seq=2503868006,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[]
+2018/05/29 18:00:04 upload.go:12: Debug func:Upload seq=2503868006,test:,k:
+2018/05/29 18:00:04 http.go:113: Info func:callHandler seq=2503868006,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:04 http.go:127: Info func:panicHandler seq=2503868006,request over
+2018/05/29 18:00:06 http.go:50: Info func:defaultHandler seq=483138914,original path:/upload,handlePath:upload,visitTimes:5,method:POST,req_map:map[]
+2018/05/29 18:00:06 upload.go:12: Debug func:Upload seq=483138914,test:,k:
+2018/05/29 18:00:06 http.go:113: Info func:callHandler seq=483138914,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:06 http.go:127: Info func:panicHandler seq=483138914,request over
+2018/05/29 18:00:10 http.go:50: Info func:defaultHandler seq=2508097411,original path:/upload,handlePath:upload,visitTimes:6,method:POST,req_map:map[]
+2018/05/29 18:00:10 upload.go:12: Debug func:Upload seq=2508097411,test:,k:
+2018/05/29 18:00:10 http.go:113: Info func:callHandler seq=2508097411,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:10 http.go:127: Info func:panicHandler seq=2508097411,request over
+2018/05/29 18:00:11 http.go:50: Info func:defaultHandler seq=4107402858,original path:/upload,handlePath:upload,visitTimes:7,method:POST,req_map:map[]
+2018/05/29 18:00:11 upload.go:12: Debug func:Upload seq=4107402858,test:,k:
+2018/05/29 18:00:11 http.go:113: Info func:callHandler seq=4107402858,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:11 http.go:127: Info func:panicHandler seq=4107402858,request over
+2018/05/29 18:00:13 http.go:50: Info func:defaultHandler seq=750372618,original path:/upload,handlePath:upload,visitTimes:8,method:POST,req_map:map[]
+2018/05/29 18:00:13 upload.go:12: Debug func:Upload seq=750372618,test:,k:
+2018/05/29 18:00:13 http.go:113: Info func:callHandler seq=750372618,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:13 http.go:127: Info func:panicHandler seq=750372618,request over
+2018/05/29 18:00:13 http.go:50: Info func:defaultHandler seq=2334206370,original path:/upload,handlePath:upload,visitTimes:9,method:POST,req_map:map[]
+2018/05/29 18:00:13 upload.go:12: Debug func:Upload seq=2334206370,test:,k:
+2018/05/29 18:00:13 http.go:113: Info func:callHandler seq=2334206370,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:13 http.go:127: Info func:panicHandler seq=2334206370,request over
+2018/05/29 18:00:14 http.go:50: Info func:defaultHandler seq=83002423,original path:/upload,handlePath:upload,visitTimes:10,method:POST,req_map:map[]
+2018/05/29 18:00:14 upload.go:12: Debug func:Upload seq=83002423,test:,k:
+2018/05/29 18:00:14 http.go:113: Info func:callHandler seq=83002423,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:14 http.go:127: Info func:panicHandler seq=83002423,request over
+2018/05/29 18:00:15 http.go:50: Info func:defaultHandler seq=657046498,original path:/upload,handlePath:upload,visitTimes:11,method:POST,req_map:map[]
+2018/05/29 18:00:15 upload.go:12: Debug func:Upload seq=657046498,test:,k:
+2018/05/29 18:00:15 http.go:113: Info func:callHandler seq=657046498,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:15 http.go:127: Info func:panicHandler seq=657046498,request over
+2018/05/29 18:00:16 http.go:50: Info func:defaultHandler seq=3298803044,original path:/upload,handlePath:upload,visitTimes:12,method:POST,req_map:map[]
+2018/05/29 18:00:16 upload.go:12: Debug func:Upload seq=3298803044,test:,k:
+2018/05/29 18:00:16 http.go:113: Info func:callHandler seq=3298803044,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:16 http.go:127: Info func:panicHandler seq=3298803044,request over
+2018/05/29 18:00:17 http.go:50: Info func:defaultHandler seq=845595235,original path:/upload,handlePath:upload,visitTimes:13,method:POST,req_map:map[]
+2018/05/29 18:00:17 upload.go:12: Debug func:Upload seq=845595235,test:,k:
+2018/05/29 18:00:17 http.go:113: Info func:callHandler seq=845595235,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:00:17 http.go:127: Info func:panicHandler seq=845595235,request over
+2018/05/29 18:05:33 http.go:148: start svr ok
+
+
+
+2018/05/29 18:05:36 http.go:50: Info func:defaultHandler seq=1133886286,original path:/handler1,handlePath:handler1,visitTimes:1,method:POST,req_map:map[test:1]
+2018/05/29 18:05:36 handler1.go:12: Debug func:Handler1 seq=1133886286,test:1
+2018/05/29 18:05:36 http.go:117: Info func:callHandler seq=1133886286,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:05:36 http.go:131: Info func:panicHandler seq=1133886286,request over

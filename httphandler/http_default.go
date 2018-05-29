@@ -5,12 +5,10 @@ import (
 )
 
 
-func HandlerDefault(handler HandlerHead)(map[string]interface{}){
-	querys := handler.Query
+func HandlerDefault(handler Handler)(map[string]interface{}){
 
-	Debug(handler, "default page:%v\n", querys)
 
-	Debug(handler,"test:%s", GetValue(querys, "test"))
+	Debug(handler,"test:%s", handler.Request.FormValue("test"))
 
 	resMap := make(map[string]interface{})
 	resMap["ret"]=999

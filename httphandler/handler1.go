@@ -5,12 +5,9 @@ import (
 )
 
 
-func Handler1(handler HandlerHead)(map[string]interface{}){
-	querys := handler.Query
+func Handler1(handler Handler)(map[string]interface{}){
 
 	r := handler.Request
-
-	Debug(handler, "default page:%v\n", querys)
 
 	Debug(handler,"test:%s", r.FormValue("test"))
 

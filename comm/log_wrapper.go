@@ -29,17 +29,17 @@ func CreateLog(fileName string)(*log.Logger, error){
 	return logger, err
 }
 
-func Debug(handler HandlerHead, format string, v ...interface{}) {
+func Debug(handler Handler, format string, v ...interface{}) {
 	format = fmt.Sprintf("Debug func:%s seq=%d,%s", GetFuncName(2), handler.Seq, format)
 	OutputLog(globalLogger,3,  format, v...)
 }
 
-func Info(handler HandlerHead, format string, v ...interface{}) {
+func Info(handler Handler, format string, v ...interface{}) {
 	format = fmt.Sprintf("Info func:%s seq=%d,%s", GetFuncName(2), handler.Seq, format)
 	OutputLog(globalLogger,3,  format, v...)
 }
 
-func Error(handler HandlerHead, format string, v ...interface{}) {
+func Error(handler Handler, format string, v ...interface{}) {
 	format = fmt.Sprintf("Error func:%s seq=%d,%s", GetFuncName(2), handler.Seq, format)
 	OutputLog(globalLogger,3,  format, v...)
 }
