@@ -5,7 +5,7 @@ import (
 )
 
 
-func Handler1(handler HandlerHead)(map[string]interface{} ,error){
+func Handler1(handler HandlerHead)(map[string]interface{}){
 	querys := handler.Query
 
 	r := handler.Request
@@ -18,5 +18,5 @@ func Handler1(handler HandlerHead)(map[string]interface{} ,error){
 	resMap["ret"]=0
 	resMap["msg"]="handler1 ok"
 
-	return resMap,nil
+	return resMap
 }

@@ -11,6 +11,7 @@ import (
 	. "http/handlebase"
 	"fmt"
 	"encoding/json"
+	"reflect"
 )
 
 var logger *log.Logger
@@ -46,7 +47,7 @@ func defaultHandler(w http.ResponseWriter,r *http.Request){
 		handlePath = "default"
 	}
 
-	Debug(handler, "original path:%s,handlePath:%s,visitTimes:%s,req_map:%v",
+	Info(handler, "original path:%s,handlePath:%s,visitTimes:%s,req_map:%v",
 		r.URL.Path,handlePath,strconv.Itoa(visitTimes),query)
 
 	callHandler(handlePath, handler)
@@ -55,15 +56,33 @@ func defaultHandler(w http.ResponseWriter,r *http.Request){
 }
 
 func callHandler(handlePath string, handler HandlerHead){
-	resValue, err := funcs.Call(handlePath, handler)
+	reflectValues, _ := funcs.Call(handlePath, handler)
 
-	resMap := resValue[0].Interface().(map[string]interface{})
+	var resMap map[string]interface{}
+
+	if len(reflectValues) != 1 {
+		Error(handler, "func:%s return params count  not 1,len(reflectValues):%d,reflectValues:%v",
+			handlePath, len(reflectValues), reflectValues)
+		return
+	}
+
+	reflectValue := reflectValues[0]
+
+
+	t := reflect.TypeOf(resMap)
+
+	if !(reflectValue.Type().ConvertibleTo(t)){
+		Error(handler , "func:%s return not map[string]interface{}", handlePath)
+		return
+	}
+
+	resMap = reflectValue.Interface().(map[string]interface{})
 
 	data, _ := json.Marshal(resMap)
 
 	res :=string(data)
 
-	Debug(handler,"resmap:%v,err:%v,res:%s", resMap, err, res)
+	Info(handler,"rsp:%s", res)
 	fmt.Fprintf(handler.Writer,"%s", res)
 
 }
@@ -73,11 +92,11 @@ func panicHandler(handler HandlerHead) {
 
 	if err := recover(); err != nil {
 
-		Debug(handler,"recover msg: ", err)
+		Error(handler,"recover msg: ", err)
 
 	} else {
 
-		Debug(handler,"request over\n")
+		Info(handler,"request over\n")
 
 	}
 }

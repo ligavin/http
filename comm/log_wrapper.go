@@ -30,7 +30,17 @@ func CreateLog(fileName string)(*log.Logger, error){
 }
 
 func Debug(handler HandlerHead, format string, v ...interface{}) {
-	format = fmt.Sprintf("seq=%d,%s", handler.Seq, format)
+	format = fmt.Sprintf("Debug func:%s seq=%d,%s", GetFuncName(2), handler.Seq, format)
+	OutputLog(globalLogger,3,  format, v...)
+}
+
+func Info(handler HandlerHead, format string, v ...interface{}) {
+	format = fmt.Sprintf("Info func:%s seq=%d,%s", GetFuncName(2), handler.Seq, format)
+	OutputLog(globalLogger,3,  format, v...)
+}
+
+func Error(handler HandlerHead, format string, v ...interface{}) {
+	format = fmt.Sprintf("Error func:%s seq=%d,%s", GetFuncName(2), handler.Seq, format)
 	OutputLog(globalLogger,3,  format, v...)
 }
 
@@ -38,10 +48,8 @@ func DebugBase(format string, v ...interface{}) {
 	OutputLog(globalLogger, 3, format, v...)
 }
 
-func OutputLog(logger *log.Logger, calldepth int, format string, v ...interface{}){
-
-
-	pc, _, _, ok := runtime.Caller(calldepth-1)
+func GetFuncName(callDepth int)string{
+	pc, _, _, ok := runtime.Caller(callDepth)
 	fn := "???"
 
 	if ok{
@@ -54,7 +62,10 @@ func OutputLog(logger *log.Logger, calldepth int, format string, v ...interface{
 		fn = callers[len(callers)-1]
 	}
 
-	format = fmt.Sprintf("func:%s,%s", fn, format)
+	return fn
+}
+
+func OutputLog(logger *log.Logger, calldepth int, format string, v ...interface{}){
 
 	logger.Output(calldepth, fmt.Sprintf(format, v...))
 }

@@ -5,7 +5,7 @@ import (
 )
 
 
-func HandlerDefault(handler HandlerHead)(map[string]interface{} ,error){
+func HandlerDefault(handler HandlerHead)(map[string]interface{}){
 	querys := handler.Query
 
 	Debug(handler, "default page:%v\n", querys)
@@ -16,5 +16,5 @@ func HandlerDefault(handler HandlerHead)(map[string]interface{} ,error){
 	resMap["ret"]=999
 	resMap["msg"]="err interface"
 
-	return resMap,nil
+	return resMap
 }
