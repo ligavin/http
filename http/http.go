@@ -61,7 +61,7 @@ func defaultHandler(w http.ResponseWriter,r *http.Request){
 func GetAllQueryParams(r *http.Request)(map[string]string){
 
 	r.ParseForm()
-	r.ParseMultipartForm(1024*1024) 
+	r.ParseMultipartForm(1024*1024)
 
 	queryParams := map[string]string{}
 	for k,v := range r.PostForm {
