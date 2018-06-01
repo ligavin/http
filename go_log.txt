@@ -5997,3 +5997,299 @@ request start
 2018/05/29 18:05:36 handler1.go:12: Debug func:Handler1 seq=1133886286,test:1
 2018/05/29 18:05:36 http.go:117: Info func:callHandler seq=1133886286,rsp:{"msg":"handler1 ok","ret":0}
 2018/05/29 18:05:36 http.go:131: Info func:panicHandler seq=1133886286,request over
+2018/05/29 18:09:55 http.go:147: start svr ok
+
+
+
+2018/05/29 18:09:56 http.go:50: Info func:defaultHandler seq=1441905380,original path:/handler1,handlePath:handler1,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/29 18:09:56 handler1.go:12: Debug func:Handler1 seq=1441905380,test:1
+2018/05/29 18:09:56 http.go:116: Info func:callHandler seq=1441905380,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:09:56 http.go:130: Info func:panicHandler seq=1441905380,request over
+2018/05/29 18:11:26 http.go:50: Info func:defaultHandler seq=1541543575,original path:/handler1,handlePath:handler1,visitTimes:2,method:POST,req_map:map[k:v test:1]
+2018/05/29 18:11:26 handler1.go:12: Debug func:Handler1 seq=1541543575,test:1
+2018/05/29 18:11:26 http.go:116: Info func:callHandler seq=1541543575,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:11:26 http.go:130: Info func:panicHandler seq=1541543575,request over
+2018/05/29 18:11:54 http.go:50: Info func:defaultHandler seq=3841544202,original path:/upload,handlePath:upload,visitTimes:3,method:POST,req_map:map[k:v test:1]
+2018/05/29 18:11:54 upload.go:12: Debug func:Upload seq=3841544202,test:1,k:v
+2018/05/29 18:11:54 http.go:116: Info func:callHandler seq=3841544202,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/29 18:11:54 http.go:130: Info func:panicHandler seq=3841544202,request over
+2018/05/30 09:49:42 http.go:50: Info func:defaultHandler seq=1167288498,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[k:v test:1]
+2018/05/30 09:49:42 upload.go:12: Debug func:Upload seq=1167288498,test:1,k:v
+2018/05/30 09:49:42 http.go:116: Info func:callHandler seq=1167288498,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 09:49:42 http.go:130: Info func:panicHandler seq=1167288498,request over
+2018/05/30 09:59:01 http.go:140: start svr ok
+
+
+
+2018/05/30 09:59:04 http.go:50: Info func:defaultHandler seq=2766800087,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/30 09:59:04 http.go:119: Error func:panicHandler seq=2766800087,recover msg: %!(EXTRA *runtime.TypeAssertionError=interface conversion: interface is nil, not httphandler.Size)
+2018/05/30 09:59:06 http.go:50: Info func:defaultHandler seq=369261924,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/30 09:59:06 http.go:119: Error func:panicHandler seq=369261924,recover msg: %!(EXTRA *runtime.TypeAssertionError=interface conversion: interface is nil, not httphandler.Size)
+2018/05/30 10:00:31 http.go:140: start svr ok
+
+
+
+2018/05/30 10:00:32 http.go:50: Info func:defaultHandler seq=750887891,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/30 10:00:32 upload.go:19: Debug func:Upload seq=750887891,err:http: no such file,filesize:%!d(MISSING)
+2018/05/30 10:00:32 upload.go:21: Debug func:Upload seq=750887891,test:1,k:v
+2018/05/30 10:00:32 http.go:109: Info func:callHandler seq=750887891,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:00:32 http.go:123: Info func:panicHandler seq=750887891,request over
+2018/05/30 10:01:46 http.go:140: start svr ok
+
+
+
+2018/05/30 10:01:48 http.go:50: Info func:defaultHandler seq=254371799,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/30 10:01:48 upload.go:20: Debug func:Upload seq=254371799,err:http: no such file,filesize:%!d(MISSING)
+2018/05/30 10:01:48 upload.go:25: Debug func:Upload seq=254371799,test:1,k:v
+2018/05/30 10:01:48 http.go:109: Info func:callHandler seq=254371799,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:01:48 http.go:123: Info func:panicHandler seq=254371799,request over
+2018/05/30 10:02:05 http.go:140: start svr ok
+
+
+
+2018/05/30 10:02:06 http.go:50: Info func:defaultHandler seq=3185913165,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/30 10:02:06 upload.go:20: Debug func:Upload seq=3185913165,err:http: no such file,filesize:%!d(MISSING)
+2018/05/30 10:02:06 upload.go:25: Debug func:Upload seq=3185913165,test:1,k:v
+2018/05/30 10:02:06 http.go:109: Info func:callHandler seq=3185913165,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:02:06 http.go:123: Info func:panicHandler seq=3185913165,request over
+2018/05/30 10:02:26 http.go:140: start svr ok
+
+
+
+2018/05/30 10:02:27 http.go:50: Info func:defaultHandler seq=3778583170,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[k:v test:1]
+2018/05/30 10:02:27 upload.go:20: Debug func:Upload seq=3778583170,err:http: no such file
+2018/05/30 10:02:27 upload.go:25: Debug func:Upload seq=3778583170,test:1,k:v
+2018/05/30 10:02:27 http.go:109: Info func:callHandler seq=3778583170,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:02:27 http.go:123: Info func:panicHandler seq=3778583170,request over
+2018/05/30 10:03:14 http.go:50: Info func:defaultHandler seq=3773295797,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[k:v&file=@test.ext test:1]
+2018/05/30 10:03:14 upload.go:20: Debug func:Upload seq=3773295797,err:http: no such file
+2018/05/30 10:03:14 upload.go:25: Debug func:Upload seq=3773295797,test:1,k:v&file=@test.ext
+2018/05/30 10:03:14 http.go:109: Info func:callHandler seq=3773295797,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:03:14 http.go:123: Info func:panicHandler seq=3773295797,request over
+2018/05/30 10:03:20 http.go:50: Info func:defaultHandler seq=966591622,original path:/upload,handlePath:upload,visitTimes:3,method:POST,req_map:map[k:v&file=@test.exe test:1]
+2018/05/30 10:03:20 upload.go:20: Debug func:Upload seq=966591622,err:http: no such file
+2018/05/30 10:03:20 upload.go:25: Debug func:Upload seq=966591622,test:1,k:v&file=@test.exe
+2018/05/30 10:03:20 http.go:109: Info func:callHandler seq=966591622,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:03:20 http.go:123: Info func:panicHandler seq=966591622,request over
+2018/05/30 10:03:39 http.go:50: Info func:defaultHandler seq=1987667173,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[test:1]
+2018/05/30 10:03:39 http.go:119: Error func:panicHandler seq=1987667173,recover msg: %!(EXTRA *runtime.TypeAssertionError=interface conversion: *os.File is not httphandler.Size: missing method Size)
+2018/05/30 10:03:48 http.go:50: Info func:defaultHandler seq=2793519327,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[test:1]
+2018/05/30 10:03:48 http.go:119: Error func:panicHandler seq=2793519327,recover msg: %!(EXTRA *runtime.TypeAssertionError=interface conversion: *os.File is not httphandler.Size: missing method Size)
+2018/05/30 10:04:12 http.go:50: Info func:defaultHandler seq=1815011167,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[test:1]
+2018/05/30 10:04:12 http.go:119: Error func:panicHandler seq=1815011167,recover msg: %!(EXTRA *runtime.TypeAssertionError=interface conversion: *os.File is not httphandler.Size: missing method Size)
+2018/05/30 10:04:27 http.go:50: Info func:defaultHandler seq=2665480178,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[test:1]
+2018/05/30 10:04:27 http.go:119: Error func:panicHandler seq=2665480178,recover msg: %!(EXTRA *runtime.TypeAssertionError=interface conversion: *os.File is not httphandler.Size: missing method Size)
+2018/05/30 10:04:40 http.go:50: Info func:defaultHandler seq=3136364462,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[test:1]
+2018/05/30 10:04:40 http.go:119: Error func:panicHandler seq=3136364462,recover msg: %!(EXTRA *runtime.TypeAssertionError=interface conversion: *os.File is not httphandler.Size: missing method Size)
+2018/05/30 10:09:36 http.go:140: start svr ok
+
+
+
+2018/05/30 10:09:36 http.go:50: Info func:defaultHandler seq=1276030870,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:1]
+2018/05/30 10:09:36 upload.go:22: Debug func:Upload seq=1276030870,filesize:2509824
+2018/05/30 10:09:36 upload.go:25: Debug func:Upload seq=1276030870,test:1,k:
+2018/05/30 10:09:36 http.go:109: Info func:callHandler seq=1276030870,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:09:36 http.go:123: Info func:panicHandler seq=1276030870,request over
+2018/05/30 10:32:19 http.go:140: start svr ok
+
+
+
+2018/05/30 10:33:31 http.go:50: Info func:defaultHandler seq=856808572,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:1]
+2018/05/30 10:33:31 upload.go:22: Debug func:Upload seq=856808572,filename:test.exe,filesize:2451k
+2018/05/30 10:33:31 upload.go:25: Debug func:Upload seq=856808572,test:1,k:
+2018/05/30 10:33:31 http.go:109: Info func:callHandler seq=856808572,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 10:33:31 http.go:123: Info func:panicHandler seq=856808572,request over
+2018/05/30 11:42:47 http.go:50: Info func:defaultHandler seq=206324827,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[test:1]
+2018/05/30 11:42:47 upload.go:22: Debug func:Upload seq=206324827,filename:test.exe,filesize:2451k
+2018/05/30 11:42:47 upload.go:25: Debug func:Upload seq=206324827,test:1,k:
+2018/05/30 11:42:47 http.go:109: Info func:callHandler seq=206324827,rsp:{"msg":"handler1 ok","ret":0}
+2018/05/30 11:42:47 http.go:123: Info func:panicHandler seq=206324827,request over
+2018/05/30 12:08:17 http.go:140: start svr ok
+
+
+
+2018/05/30 12:08:20 http.go:50: Info func:defaultHandler seq=3202605184,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:1]
+2018/05/30 12:08:20 http.go:109: Info func:callHandler seq=3202605184,rsp:{"msg":"path error","ret":-2}
+2018/05/30 12:08:20 http.go:123: Info func:panicHandler seq=3202605184,request over
+2018/05/30 12:09:31 http.go:50: Info func:defaultHandler seq=2360212415,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[path:. test:1]
+2018/05/30 12:09:31 upload.go:33: Debug func:Upload seq=2360212415,filename:test.exe,filesize:2451k
+2018/05/30 12:09:31 http.go:109: Info func:callHandler seq=2360212415,rsp:{"msg":"ok","ret":0}
+2018/05/30 12:09:31 http.go:123: Info func:panicHandler seq=2360212415,request over
+2018/05/30 12:11:20 http.go:140: start svr ok
+
+
+
+2018/05/30 12:11:26 http.go:50: Info func:defaultHandler seq=1822777352,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:. test:1]
+2018/05/30 12:11:26 upload.go:33: Debug func:Upload seq=1822777352,filename:test.exe,filesize:2451k
+2018/05/30 12:11:26 http.go:109: Info func:callHandler seq=1822777352,rsp:{"msg":"ok","ret":0}
+2018/05/30 12:11:26 http.go:123: Info func:panicHandler seq=1822777352,request over
+2018/05/30 12:15:41 http.go:140: start svr ok
+
+
+
+2018/05/30 12:15:44 http.go:50: Info func:defaultHandler seq=2568534471,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:. test:1]
+2018/05/30 12:15:44 upload.go:32: Debug func:Upload seq=2568534471,filename:test.exe,filesize:2451k
+2018/05/30 12:15:44 upload.go:38: Error func:Upload seq=2568534471,create file error:open .: is a directory
+2018/05/30 12:15:44 upload.go:43: Debug func:Upload seq=2568534471,written:%!s(int64=0),err:invalid argument
+2018/05/30 12:15:44 http.go:109: Info func:callHandler seq=2568534471,rsp:{"msg":"ok","ret":0}
+2018/05/30 12:15:44 http.go:123: Info func:panicHandler seq=2568534471,request over
+2018/05/30 12:16:05 http.go:140: start svr ok
+
+
+
+2018/05/30 12:16:06 http.go:50: Info func:defaultHandler seq=3142275065,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:. test:1]
+2018/05/30 12:16:06 upload.go:32: Debug func:Upload seq=3142275065,filename:test.exe,filesize:2451k
+2018/05/30 12:16:06 upload.go:38: Error func:Upload seq=3142275065,create file error:open .: is a directory
+2018/05/30 12:16:06 upload.go:43: Debug func:Upload seq=3142275065,written:0,err:invalid argument
+2018/05/30 12:16:06 http.go:109: Info func:callHandler seq=3142275065,rsp:{"msg":"ok","ret":0}
+2018/05/30 12:16:06 http.go:123: Info func:panicHandler seq=3142275065,request over
+2018/05/30 12:16:32 http.go:50: Info func:defaultHandler seq=3740017033,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[path:./testaaa.exe test:1]
+2018/05/30 12:16:32 upload.go:32: Debug func:Upload seq=3740017033,filename:test.exe,filesize:2451k
+2018/05/30 12:16:32 upload.go:43: Debug func:Upload seq=3740017033,written:2509824,err:%!s(<nil>)
+2018/05/30 12:16:32 http.go:109: Info func:callHandler seq=3740017033,rsp:{"msg":"ok","ret":0}
+2018/05/30 12:16:32 http.go:123: Info func:panicHandler seq=3740017033,request over
+2018/05/30 12:17:02 http.go:140: start svr ok
+
+
+
+2018/05/30 12:17:05 http.go:50: Info func:defaultHandler seq=2269482157,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:. test:1]
+2018/05/30 12:17:05 upload.go:32: Debug func:Upload seq=2269482157,filename:test.exe,filesize:2451k
+2018/05/30 12:17:05 upload.go:38: Error func:Upload seq=2269482157,create file error:open .: is a directory
+2018/05/30 12:17:05 upload.go:43: Debug func:Upload seq=2269482157,written:0,err:invalid argument
+2018/05/30 12:17:05 http.go:109: Info func:callHandler seq=2269482157,rsp:{"msg":"ok","ret":0}
+2018/05/30 12:17:05 http.go:123: Info func:panicHandler seq=2269482157,request over
+2018/05/30 12:17:12 http.go:50: Info func:defaultHandler seq=1254784662,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[path:./testaaa.exe test:1]
+2018/05/30 12:17:12 upload.go:32: Debug func:Upload seq=1254784662,filename:test.exe,filesize:2451k
+2018/05/30 12:17:12 upload.go:43: Debug func:Upload seq=1254784662,written:2451,err:<nil>
+2018/05/30 12:17:12 http.go:109: Info func:callHandler seq=1254784662,rsp:{"msg":"ok","ret":0}
+2018/05/30 12:17:12 http.go:123: Info func:panicHandler seq=1254784662,request over
+2018/05/31 10:48:30 http.go:140: start svr ok
+
+
+
+2018/05/31 10:48:46 http.go:50: Info func:defaultHandler seq=2018921983,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[test:1 path:./testaaa.exe]
+2018/05/31 10:48:46 upload.go:18: Debug func:checkUploadFile seq=2018921983,match :true
+2018/05/31 10:48:46 upload.go:41: Debug func:Upload seq=2018921983,filename:test.exe,filesize:2451k
+2018/05/31 10:48:46 upload.go:52: Debug func:Upload seq=2018921983,written:2451,err:<nil>
+2018/05/31 10:48:46 http.go:109: Info func:callHandler seq=2018921983,rsp:{"msg":"ok","ret":0}
+2018/05/31 10:48:46 http.go:123: Info func:panicHandler seq=2018921983,request over
+2018/05/31 10:50:13 http.go:50: Info func:defaultHandler seq=987082424,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[path:./testaaa.exe test:1]
+2018/05/31 10:50:13 upload.go:18: Debug func:checkUploadFile seq=987082424,match :true
+2018/05/31 10:50:13 upload.go:41: Debug func:Upload seq=987082424,filename:ntuser.ini,filesize:0k
+2018/05/31 10:50:13 upload.go:52: Debug func:Upload seq=987082424,written:0,err:<nil>
+2018/05/31 10:50:13 http.go:109: Info func:callHandler seq=987082424,rsp:{"msg":"ok","ret":0}
+2018/05/31 10:50:13 http.go:123: Info func:panicHandler seq=987082424,request over
+2018/05/31 10:50:19 http.go:50: Info func:defaultHandler seq=1026529430,original path:/upload,handlePath:upload,visitTimes:3,method:POST,req_map:map[path:./testaaa.ini test:1]
+2018/05/31 10:50:19 upload.go:18: Debug func:checkUploadFile seq=1026529430,match :false
+2018/05/31 10:50:19 upload.go:41: Debug func:Upload seq=1026529430,filename:ntuser.ini,filesize:0k
+2018/05/31 10:50:19 upload.go:52: Debug func:Upload seq=1026529430,written:0,err:<nil>
+2018/05/31 10:50:19 http.go:109: Info func:callHandler seq=1026529430,rsp:{"msg":"ok","ret":0}
+2018/05/31 10:50:19 http.go:123: Info func:panicHandler seq=1026529430,request over
+2018/05/31 10:54:54 http.go:140: start svr ok
+
+
+
+2018/05/31 10:55:02 http.go:50: Info func:defaultHandler seq=1601318279,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:./testaaa.ini test:1]
+2018/05/31 10:55:02 upload.go:18: Debug func:checkUploadFile seq=1601318279,match :false
+2018/05/31 10:55:02 http.go:109: Info func:callHandler seq=1601318279,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:55:02 http.go:123: Info func:panicHandler seq=1601318279,request over
+2018/05/31 10:55:12 http.go:50: Info func:defaultHandler seq=1874558866,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[path:./testaaa.exe test:1]
+2018/05/31 10:55:12 upload.go:18: Debug func:checkUploadFile seq=1874558866,match :false
+2018/05/31 10:55:12 http.go:109: Info func:callHandler seq=1874558866,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:55:12 http.go:123: Info func:panicHandler seq=1874558866,request over
+2018/05/31 10:57:18 http.go:140: start svr ok
+
+
+
+2018/05/31 10:57:19 http.go:50: Info func:defaultHandler seq=1253404664,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:./testaaa.exe test:1]
+2018/05/31 10:57:19 upload.go:18: Debug func:checkUploadFile seq=1253404664,match :false
+2018/05/31 10:57:19 http.go:109: Info func:callHandler seq=1253404664,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:57:19 http.go:123: Info func:panicHandler seq=1253404664,request over
+2018/05/31 10:57:36 http.go:140: start svr ok
+
+
+
+2018/05/31 10:57:37 http.go:50: Info func:defaultHandler seq=496779895,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:./testaaa.exe test:1]
+2018/05/31 10:57:37 upload.go:18: Debug func:checkUploadFile seq=496779895,match :true
+2018/05/31 10:57:37 upload.go:46: Debug func:Upload seq=496779895,filename:ntuser.ini,filesize:0k
+2018/05/31 10:57:37 upload.go:57: Debug func:Upload seq=496779895,written:0,err:<nil>
+2018/05/31 10:57:37 http.go:109: Info func:callHandler seq=496779895,rsp:{"msg":"ok","ret":0}
+2018/05/31 10:57:37 http.go:123: Info func:panicHandler seq=496779895,request over
+2018/05/31 10:58:19 http.go:140: start svr ok
+
+
+
+2018/05/31 10:58:20 http.go:50: Info func:defaultHandler seq=3758570337,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:./testaaa.exe test:1]
+2018/05/31 10:58:20 upload.go:18: Debug func:checkUploadFile seq=3758570337,match :true
+2018/05/31 10:58:20 upload.go:46: Debug func:Upload seq=3758570337,filename:ntuser.ini,filesize:0k
+2018/05/31 10:58:20 upload.go:57: Debug func:Upload seq=3758570337,written:0,err:<nil>
+2018/05/31 10:58:20 http.go:109: Info func:callHandler seq=3758570337,rsp:{"msg":"ok","ret":0}
+2018/05/31 10:58:20 http.go:123: Info func:panicHandler seq=3758570337,request over
+2018/05/31 10:58:34 http.go:50: Info func:defaultHandler seq=1845396010,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[path:.//testaaa.exe test:1]
+2018/05/31 10:58:34 upload.go:18: Debug func:checkUploadFile seq=1845396010,match :true
+2018/05/31 10:58:34 upload.go:46: Debug func:Upload seq=1845396010,filename:ntuser.ini,filesize:0k
+2018/05/31 10:58:34 upload.go:57: Debug func:Upload seq=1845396010,written:0,err:<nil>
+2018/05/31 10:58:34 http.go:109: Info func:callHandler seq=1845396010,rsp:{"msg":"ok","ret":0}
+2018/05/31 10:58:34 http.go:123: Info func:panicHandler seq=1845396010,request over
+2018/05/31 10:58:45 http.go:50: Info func:defaultHandler seq=2299290100,original path:/upload,handlePath:upload,visitTimes:3,method:POST,req_map:map[path:..//testaaa.exe test:1]
+2018/05/31 10:58:45 upload.go:18: Debug func:checkUploadFile seq=2299290100,match :false
+2018/05/31 10:58:45 http.go:109: Info func:callHandler seq=2299290100,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:58:45 http.go:123: Info func:panicHandler seq=2299290100,request over
+2018/05/31 10:59:03 http.go:140: start svr ok
+
+
+
+2018/05/31 10:59:05 http.go:50: Info func:defaultHandler seq=491391632,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:..//testaaa.exe test:1]
+2018/05/31 10:59:05 upload.go:18: Debug func:checkUploadFile seq=491391632,match :false
+2018/05/31 10:59:05 http.go:109: Info func:callHandler seq=491391632,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:05 http.go:123: Info func:panicHandler seq=491391632,request over
+2018/05/31 10:59:52 http.go:140: start svr ok
+
+
+
+2018/05/31 10:59:53 http.go:50: Info func:defaultHandler seq=2103824064,original path:/upload,handlePath:upload,visitTimes:1,method:POST,req_map:map[path:..//testaaa.exe test:1]
+2018/05/31 10:59:53 upload.go:18: Debug func:checkUploadFile seq=2103824064,match :false
+2018/05/31 10:59:53 http.go:109: Info func:callHandler seq=2103824064,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:53 http.go:123: Info func:panicHandler seq=2103824064,request over
+2018/05/31 10:59:55 http.go:50: Info func:defaultHandler seq=68626384,original path:/upload,handlePath:upload,visitTimes:2,method:POST,req_map:map[test:1 path:..//testaaa.exe]
+2018/05/31 10:59:55 upload.go:18: Debug func:checkUploadFile seq=68626384,match :false
+2018/05/31 10:59:55 http.go:109: Info func:callHandler seq=68626384,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:55 http.go:123: Info func:panicHandler seq=68626384,request over
+2018/05/31 10:59:55 http.go:50: Info func:defaultHandler seq=332343251,original path:/upload,handlePath:upload,visitTimes:3,method:POST,req_map:map[path:..//testaaa.exe test:1]
+2018/05/31 10:59:55 upload.go:18: Debug func:checkUploadFile seq=332343251,match :false
+2018/05/31 10:59:55 http.go:109: Info func:callHandler seq=332343251,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:55 http.go:123: Info func:panicHandler seq=332343251,request over
+2018/05/31 10:59:57 http.go:50: Info func:defaultHandler seq=241928106,original path:/upload,handlePath:upload,visitTimes:4,method:POST,req_map:map[test:1 path:..//testaaa.exe]
+2018/05/31 10:59:57 upload.go:18: Debug func:checkUploadFile seq=241928106,match :false
+2018/05/31 10:59:57 http.go:109: Info func:callHandler seq=241928106,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:57 http.go:123: Info func:panicHandler seq=241928106,request over
+2018/05/31 10:59:57 http.go:50: Info func:defaultHandler seq=1279973082,original path:/upload,handlePath:upload,visitTimes:5,method:POST,req_map:map[path:..//testaaa.exe test:1]
+2018/05/31 10:59:57 upload.go:18: Debug func:checkUploadFile seq=1279973082,match :false
+2018/05/31 10:59:57 http.go:109: Info func:callHandler seq=1279973082,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:57 http.go:123: Info func:panicHandler seq=1279973082,request over
+2018/05/31 10:59:58 http.go:50: Info func:defaultHandler seq=3260175796,original path:/upload,handlePath:upload,visitTimes:6,method:POST,req_map:map[path:..//testaaa.exe test:1]
+2018/05/31 10:59:58 upload.go:18: Debug func:checkUploadFile seq=3260175796,match :false
+2018/05/31 10:59:58 http.go:109: Info func:callHandler seq=3260175796,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:58 http.go:123: Info func:panicHandler seq=3260175796,request over
+2018/05/31 10:59:59 http.go:50: Info func:defaultHandler seq=167625477,original path:/upload,handlePath:upload,visitTimes:7,method:POST,req_map:map[path:..//testaaa.exe test:1]
+2018/05/31 10:59:59 upload.go:18: Debug func:checkUploadFile seq=167625477,match :false
+2018/05/31 10:59:59 http.go:109: Info func:callHandler seq=167625477,rsp:{"msg":"path is invalid","ret":-3}
+2018/05/31 10:59:59 http.go:123: Info func:panicHandler seq=167625477,request over
+2018/05/31 11:00:06 http.go:50: Info func:defaultHandler seq=726868398,original path:/upload,handlePath:upload,visitTimes:8,method:POST,req_map:map[path:.//testaaa.exe test:1]
+2018/05/31 11:00:06 upload.go:18: Debug func:checkUploadFile seq=726868398,match :true
+2018/05/31 11:00:06 upload.go:46: Debug func:Upload seq=726868398,filename:ntuser.ini,filesize:0k
+2018/05/31 11:00:06 upload.go:57: Debug func:Upload seq=726868398,written:0,err:<nil>
+2018/05/31 11:00:06 http.go:109: Info func:callHandler seq=726868398,rsp:{"msg":"ok","ret":0}
+2018/05/31 11:00:06 http.go:123: Info func:panicHandler seq=726868398,request over
+2018/05/31 11:17:16 http.go:50: Info func:defaultHandler seq=3432543350,original path:/upload,handlePath:upload,visitTimes:9,method:POST,req_map:map[path:.//testaaa.exe test:1]
+2018/05/31 11:17:16 upload.go:18: Debug func:checkUploadFile seq=3432543350,match :true
+2018/05/31 11:17:16 upload.go:46: Debug func:Upload seq=3432543350,filename:ntuser.ini,filesize:0k
+2018/05/31 11:17:16 upload.go:57: Debug func:Upload seq=3432543350,written:0,err:<nil>
+2018/05/31 11:17:16 http.go:109: Info func:callHandler seq=3432543350,rsp:{"msg":"ok","ret":0}
+2018/05/31 11:17:16 http.go:123: Info func:panicHandler seq=3432543350,request over
+2018/05/31 11:17:17 http.go:50: Info func:defaultHandler seq=1622111807,original path:/upload,handlePath:upload,visitTimes:10,method:POST,req_map:map[path:.//testaaa.exe test:1]
+2018/05/31 11:17:17 upload.go:18: Debug func:checkUploadFile seq=1622111807,match :true
+2018/05/31 11:17:17 upload.go:46: Debug func:Upload seq=1622111807,filename:ntuser.ini,filesize:0k
+2018/05/31 11:17:17 upload.go:57: Debug func:Upload seq=1622111807,written:0,err:<nil>
+2018/05/31 11:17:17 http.go:109: Info func:callHandler seq=1622111807,rsp:{"msg":"ok","ret":0}
+2018/05/31 11:17:17 http.go:123: Info func:panicHandler seq=1622111807,request over
