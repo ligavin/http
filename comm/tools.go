@@ -3,11 +3,15 @@ package comm
 import (
 	"math/rand"
 	"time"
+	"os"
 )
 
+var randNumber int32 = 0
 
 func InitRand(){
-	rand.Seed(time.Now().UnixNano())
+	pid := (int64)(os.Getpid()) * 1e10
+	rand.Seed(time.Now().UnixNano() + ((int64)(randNumber)*1e9) + pid)
+	randNumber++
 }
 
 func GetRandUint32()(uint32){
@@ -15,15 +19,26 @@ func GetRandUint32()(uint32){
 	return rand.Uint32()
 }
 
-func GetValue(handler Handler, key string)string{
+func GetRandUint64()(uint64){
+	InitRand()
+	return rand.Uint64()
+}
 
-	mp := handler.QueryParams
+func GetMapValue(mp	map[string]string, key string)string{
+	v, exist := mp[key]
 
-	v,exist := mp[key]
 	if !exist{
 		return ""
 	}
+
 	return v
+}
+
+func GetUrlValue(handler Handler, key string)string{
+
+	mp := handler.QueryParams
+
+	return GetMapValue(mp, key)
 }
 
 func Result(ret int, msg string)map[string]interface{}{
@@ -32,3 +47,4 @@ func Result(ret int, msg string)map[string]interface{}{
 	resMap["msg"]=msg
 	return resMap
 }
+

@@ -23,7 +23,7 @@ func Upload(handler Handler)(map[string]interface{}){
 
 	r := handler.Request
 
-	path := GetValue(handler, "path")
+	path := GetUrlValue(handler, "path")
 
 	if "" == path{
 		return Result(-2,"path error")
